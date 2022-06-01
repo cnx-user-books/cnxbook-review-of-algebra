@@ -1,0 +1,265 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml"><title>Arithmetic Review: The Least Common Multiple</title><metadata>
+  <md:content-id>m21870</md:content-id><md:title>Arithmetic Review: The Least Common Multiple</md:title>
+  <md:abstract>This module is from Elementary Algebra by Denny Burzynski and Wade Ellis, Jr.
+This chapter contains many examples of arithmetic techniques that are used directly or indirectly in algebra. Since the chapter is intended as a review, the problem-solving techniques are presented without being developed. Therefore, no work space is provided, nor does the chapter contain all of the pedagogical features of the text. As a review, this chapter can be assigned at the discretion of the instructor and can also be a valuable reference tool for the student.</md:abstract>
+  <md:uuid>79500055-1dbc-46f6-bae7-80f2c80ffd9f</md:uuid>
+</metadata>
+
+<content><section id="fs-id10181636">      <title>Overview</title>      <list id="fs-id10651008" list-type="bulleted">        <item>          Multiples        </item>        <item>          Common Multiples        </item>		<item>          The Least Common Multiple (LCM)        </item>		<item>          Finding The Least Common Multiple        </item>      </list>    </section><section id="fs-id11888111">      <title>Multiples</title><para id="fs-id11148162"><title>Multiples</title>When a whole number is multiplied by other whole numbers, with the exception of Multiples zero, the resulting products are called <term>multiples</term> of the given whole number.</para><table id="eip-283" summary="A partial multiplication table. The first, third, fifth, and seventh columns display multiples of 2, 3, 8, and 10, respectively. The second, fourth, and sixth columns are blank for formatting purposes.">
+<tgroup cols="7"><tbody>  
+
+<row>    
+ <entry><emphasis>Multiples of 2</emphasis></entry>    
+ <entry/>    
+ <entry><emphasis>Multiples of 3</emphasis></entry>    
+ <entry/>    
+ <entry><emphasis>Multiples of 8</emphasis></entry>    
+ <entry/>    
+ <entry><emphasis>Multiples of 10</emphasis></entry>  
+</row>  
+<row>    
+ <entry><m:math display="block"> <m:semantics>  <m:mrow>   <m:mn>2</m:mn><m:mo>·</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>2</m:mn>  </m:mrow>   </m:semantics></m:math></entry>    
+ <entry/>    
+ <entry><m:math display="block"> <m:semantics>  <m:mrow>   <m:mn>3</m:mn><m:mo>·</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>3</m:mn>  </m:mrow>   </m:semantics></m:math></entry>    
+ <entry/>    
+ <entry><m:math display="block"> <m:semantics>  <m:mrow>   <m:mn>8</m:mn><m:mo>·</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>8</m:mn>  </m:mrow>   </m:semantics></m:math></entry>    
+ <entry/>    
+ <entry><m:math display="block"> <m:semantics>  <m:mrow>   <m:mn>10</m:mn><m:mo>·</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>10</m:mn>  </m:mrow>   </m:semantics></m:math></entry>  
+</row>  
+<row>    
+ <entry><m:math display="block"> <m:semantics>  <m:mrow>   <m:mn>2</m:mn><m:mo>·</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>4</m:mn>  </m:mrow>   </m:semantics></m:math></entry>    
+ <entry/>    
+ <entry><m:math display="block"> <m:semantics>  <m:mrow>   <m:mn>3</m:mn><m:mo>·</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>6</m:mn>  </m:mrow>   </m:semantics></m:math></entry>    
+ <entry/>    
+ <entry><m:math display="block"> <m:semantics>  <m:mrow>   <m:mn>8</m:mn><m:mo>·</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>16</m:mn>  </m:mrow>   </m:semantics></m:math></entry>    
+ <entry/>    
+ <entry><m:math display="block"> <m:semantics>  <m:mrow>   <m:mn>10</m:mn><m:mo>·</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>20</m:mn>  </m:mrow>   </m:semantics></m:math></entry>  
+</row>  
+<row>    
+ <entry><m:math display="block"> <m:semantics>  <m:mrow>   <m:mn>2</m:mn><m:mo>·</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>6</m:mn>  </m:mrow>   </m:semantics></m:math></entry>     
+ <entry/>    
+ <entry><m:math display="block"> <m:semantics>  <m:mrow>   <m:mn>3</m:mn><m:mo>·</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>9</m:mn>  </m:mrow>   </m:semantics></m:math></entry>    
+ <entry/>    
+ <entry><m:math display="block"> <m:semantics>  <m:mrow>   <m:mn>8</m:mn><m:mo>·</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>24</m:mn>  </m:mrow>   </m:semantics></m:math></entry>    
+ <entry/>    
+ <entry><m:math display="block"> <m:semantics>  <m:mrow>   <m:mn>10</m:mn><m:mo>·</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>30</m:mn>  </m:mrow>   </m:semantics></m:math></entry>  
+</row>  
+<row>    
+ <entry><m:math display="block"> <m:semantics>  <m:mrow>   <m:mn>2</m:mn><m:mo>·</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>8</m:mn>  </m:mrow>   </m:semantics></m:math></entry>    
+ <entry/>    
+ <entry><m:math display="block"> <m:semantics>  <m:mrow>   <m:mn>3</m:mn><m:mo>·</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>12</m:mn>  </m:mrow>   </m:semantics></m:math></entry>    
+ <entry/>    
+ <entry><m:math display="block"> <m:semantics>  <m:mrow>   <m:mn>8</m:mn><m:mo>·</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>32</m:mn>  </m:mrow>   </m:semantics></m:math></entry>    
+ <entry/>    
+ <entry><m:math display="block"> <m:semantics>  <m:mrow>   <m:mn>10</m:mn><m:mo>·</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>40</m:mn>  </m:mrow>   </m:semantics></m:math></entry>  
+</row>  
+<row>    
+ <entry><m:math display="block"> <m:semantics>  <m:mrow>   <m:mn>2</m:mn><m:mo>·</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>10</m:mn>  </m:mrow>   </m:semantics></m:math></entry>    
+ <entry/>    
+ <entry><m:math display="block"> <m:semantics>  <m:mrow>   <m:mn>3</m:mn><m:mo>·</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>15</m:mn>  </m:mrow>   </m:semantics></m:math></entry>    
+ <entry/>    
+ <entry><m:math display="block"> <m:semantics>  <m:mrow>   <m:mn>8</m:mn><m:mo>·</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>40</m:mn>  </m:mrow>   </m:semantics></m:math></entry>    
+ <entry/>    
+ <entry><m:math display="block"> <m:semantics>  <m:mrow>   <m:mn>10</m:mn><m:mo>·</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>50</m:mn>  </m:mrow>   </m:semantics></m:math></entry>  
+</row>  
+<row>    
+ <entry>…</entry>    
+ <entry/>    
+ <entry>…</entry>    
+ <entry/>    
+ <entry>…</entry>    
+ <entry/>    
+ <entry>…</entry>  
+</row>  
+
+</tbody>
+
+</tgroup>
+</table></section><section id="fs-id9073791">      <title>Common Multiples</title>	  <para id="fs-id8458691">There will be times when we are given two or more whole numbers and we will need to know if there are any multiples that are common to each of them. If there are, we will need to know what they are. For example, some of the multiples that are common to 2 and 3 are 6, 12, and 18.</para></section><section id="fs-id11882730"><title>Sample Set A</title><example id="fs-id9049382"><para id="fs-id9049383">We can visualize common multiples using the number line.<newline/><newline/><media id="fs-id10194483" alt="A horizontal line numbered from zero to eighteen. Multiples of two and three are marked with dark circles, and are connected through arcs. Six, twelve and eighteen are labeled as &quot;First common multiple&quot;, &quot;Second common multiple&quot;, and &quot;Third common multiple&quot;, respectively.">		<image mime-type="image/jpeg" src="../../media/C10_SAR-3_P07_001.jpg" print-width="4in"/>	</media><newline/><newline/>Notice that the common multiples can be divided by both whole numbers.</para></example></section><section id="fs-id9900912">      <title>The Least Common Multiple (LCM)</title>	  <para id="fs-id11882282">Notice that in our number line visualization of common multiples (above) the first common multiple is also the smallest, or <term>least common multiple,</term> abbreviated by <term>LCM.</term></para><para id="fs-id10507305" class="highlight"><title>Least Common Multiple</title>The <term>least common multiple, LCM,</term> of two or more whole numbers is the smallest whole number that each of the given numbers will divide into without a remainder.</para></section><section id="fs-id11885650">      <title>Finding The Least Common Multiple</title>	  <para id="fs-id3081749" class="highlight"><title>Finding the LCM</title>To find the LCM of two or more numbers,<list id="fs-id8216595" list-type="enumerated" number-style="arabic" class="highlight"><item>Write the prime factorization of each number, using exponents on repeated factors.</item><item>Write each base that appears in each of the prime factorizations.</item><item>To each base, attach the largest exponent that appears on it in the prime factorizations.</item><item>The LCM is the product of the numbers found in step 3.</item></list></para></section><section id="fs-id10041704"><title>Sample Set B</title><para id="fs-id9072341">Find the LCM of the following number.</para><example id="fs-id8014988"><para id="fs-id8014990"> 9 and 12<newline/><newline/><list id="fs-id11883438" list-type="enumerated" number-style="arabic" class="highlight"><item><m:math> <m:semantics>  <m:mtable align="top" columnalign="left">   <m:mtr columnalign="left">    <m:mtd columnalign="left">     <m:mn>9</m:mn>    </m:mtd>    <m:mtd columnalign="left">     <m:mo>=</m:mo>    </m:mtd>    <m:mtd columnalign="left">     <m:mrow>      <m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn>     </m:mrow>    </m:mtd>    <m:mtd columnalign="left">     <m:mo>=</m:mo>    </m:mtd>    <m:mtd columnalign="left">     <m:mrow>      <m:msup>       <m:mn>3</m:mn>       <m:mn>2</m:mn>      </m:msup>           </m:mrow>    </m:mtd>    <m:mtd columnalign="left">     <m:mrow/>    </m:mtd>    <m:mtd columnalign="left">     <m:mrow/>    </m:mtd>   </m:mtr>   <m:mtr columnalign="left">    <m:mtd columnalign="left">     <m:mrow>      <m:mn>12</m:mn>     </m:mrow>    </m:mtd>    <m:mtd columnalign="left">     <m:mo>=</m:mo>    </m:mtd>    <m:mtd columnalign="left">     <m:mrow>      <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>6</m:mn>     </m:mrow>    </m:mtd>    <m:mtd columnalign="left">     <m:mo>=</m:mo>    </m:mtd>    <m:mtd columnalign="left">     <m:mrow>      <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn>     </m:mrow>    </m:mtd>    <m:mtd columnalign="left">     <m:mo>=</m:mo>    </m:mtd>    <m:mtd columnalign="left">     <m:mrow>      <m:msup>       <m:mn>2</m:mn>       <m:mn>2</m:mn>      </m:msup>      <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn>     </m:mrow>    </m:mtd>   </m:mtr>     </m:mtable>   </m:semantics></m:math></item><item>The bases that appear in the prime factorizations are 2 and 3.</item><item>The largest exponents appearing on 2 and 3 in the prime factorizations are, respectively, 2 and 2 (or <m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mn>2</m:mn>    <m:mn>2</m:mn>   </m:msup>     </m:mrow>   </m:semantics></m:math> from 12, and <m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mn>3</m:mn>    <m:mn>2</m:mn>   </m:msup>     </m:mrow>   </m:semantics></m:math> from 9).</item><item>The LCM is the product of these numbers.<newline/><newline/><m:math> <m:semantics>  <m:mrow>   <m:mtext>LCM </m:mtext><m:mo>=</m:mo><m:msup>    <m:mn>2</m:mn>    <m:mn>2</m:mn>   </m:msup>   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:msup>    <m:mn>3</m:mn>    <m:mn>2</m:mn>   </m:msup>   <m:mo>=</m:mo><m:mn>4</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>36</m:mn>  </m:mrow>   </m:semantics></m:math></item></list> Thus, 36 is the smallest number that both 9 and 12 divide into without remainders.</para></example><example id="fs-id8216855"><para id="fs-id8216856"> 90 and 630<list id="fs-id10179776" list-type="enumerated" number-style="arabic" class="highlight"><item><m:math> <m:semantics>  <m:mrow>   <m:mtable align="top" columnalign="left">    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow>       <m:mn>90</m:mn>      </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>45</m:mn>      </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>15</m:mn>      </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn>      </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:msup>        <m:mn>3</m:mn>        <m:mn>2</m:mn>       </m:msup>       <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn>      </m:mrow>     </m:mtd>    </m:mtr>    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow>       <m:mn>630</m:mn>      </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>315</m:mn>      </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>105</m:mn>      </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>35</m:mn>      </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>7</m:mn>      </m:mrow>     </m:mtd>    </m:mtr>    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:msup>        <m:mn>3</m:mn>        <m:mn>2</m:mn>       </m:msup>       <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>7</m:mn>      </m:mrow>     </m:mtd>    </m:mtr>       </m:mtable>  </m:mrow>   </m:semantics></m:math></item><item>The bases that appear in the prime factorizations are 2, 3, 5, and 7.</item><item>The largest exponents that appear on 2, 3, 5, and 7 are, respectively, 1, 2, 1, and 1.<newline/><newline/><m:math> <m:semantics>  <m:mrow>   <m:mtable columnalign="left">    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow>       <m:msup>        <m:mn>2</m:mn>        <m:mn>1</m:mn>       </m:msup>             </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mtext>from either 9</m:mtext><m:mn>0</m:mn><m:mtext> or 63</m:mtext><m:mn>0</m:mn>      </m:mrow>     </m:mtd>    </m:mtr>    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow>       <m:msup>        <m:mn>3</m:mn>        <m:mn>2</m:mn>       </m:msup>             </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mtext>from either 9</m:mtext><m:mn>0</m:mn><m:mtext> or 63</m:mtext><m:mn>0</m:mn>      </m:mrow>     </m:mtd>    </m:mtr>    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow>       <m:msup>        <m:mn>5</m:mn>        <m:mn>1</m:mn>       </m:msup>             </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mtext>from either 9</m:mtext><m:mn>0</m:mn><m:mtext> or 63</m:mtext><m:mn>0</m:mn>      </m:mrow>     </m:mtd>    </m:mtr>    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow>       <m:msup>        <m:mn>7</m:mn>        <m:mn>1</m:mn>       </m:msup>             </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mtext>from 63</m:mtext><m:mn>0</m:mn>      </m:mrow>     </m:mtd>    </m:mtr>       </m:mtable>  </m:mrow>   </m:semantics></m:math></item><item>The LCM is the product of these numbers.<newline/><newline/><m:math> <m:semantics>  <m:mrow>   <m:mtext>LCM </m:mtext><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:msup>    <m:mn>3</m:mn>    <m:mn>2</m:mn>   </m:msup>   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>9</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>630</m:mn>  </m:mrow>   </m:semantics></m:math></item></list> Thus, 630 is the smallest number that both 90 and 630 divide into with no remainders.</para></example><example id="fs-id9190855"><para id="fs-id9190856"> 33, 110, and 484<list id="fs-id9190859" list-type="enumerated" number-style="arabic" class="highlight"><item><m:math> <m:semantics>  <m:mtable align="top" columnalign="left">   <m:mtr columnalign="left">    <m:mtd columnalign="left">     <m:mrow>      <m:mn>33</m:mn>     </m:mrow>    </m:mtd>    <m:mtd columnalign="left">     <m:mo>=</m:mo>    </m:mtd>    <m:mtd columnalign="left">     <m:mrow>      <m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>11</m:mn>     </m:mrow>    </m:mtd>    <m:mtd columnalign="left">     <m:mrow/>    </m:mtd>    <m:mtd columnalign="left">     <m:mrow/>    </m:mtd>   </m:mtr>   <m:mtr columnalign="left">    <m:mtd columnalign="left">     <m:mrow>      <m:mn>110</m:mn>     </m:mrow>    </m:mtd>    <m:mtd columnalign="left">     <m:mo>=</m:mo>    </m:mtd>    <m:mtd columnalign="left">     <m:mrow>      <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>55</m:mn>     </m:mrow>    </m:mtd>    <m:mtd columnalign="left">     <m:mo>=</m:mo>    </m:mtd>    <m:mtd columnalign="left">     <m:mrow>      <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>11</m:mn>     </m:mrow>    </m:mtd>   </m:mtr>   <m:mtr columnalign="left">    <m:mtd columnalign="left">     <m:mrow>      <m:mn>484</m:mn>     </m:mrow>    </m:mtd>    <m:mtd columnalign="left">     <m:mo>=</m:mo>    </m:mtd>    <m:mtd columnalign="left">     <m:mrow>      <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>242</m:mn>     </m:mrow>    </m:mtd>    <m:mtd columnalign="left">     <m:mo>=</m:mo>    </m:mtd>    <m:mtd columnalign="left">     <m:mrow>      <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>121</m:mn><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>11</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>11</m:mn><m:mo>=</m:mo><m:msup>       <m:mn>2</m:mn>       <m:mn>2</m:mn>      </m:msup>      <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:msup>       <m:mrow>        <m:mn>11</m:mn>       </m:mrow>       <m:mn>2</m:mn>      </m:msup>           </m:mrow>    </m:mtd>   </m:mtr>     </m:mtable>   </m:semantics></m:math></item><item>The bases that appear in the prime factorizations are 2, 3, 5, and 11.</item><item>The largest exponents that appear on 2, 3, 5, and 11 are, respectively, 2, 1, 1, and 2.<newline/><newline/><m:math> <m:semantics>  <m:mrow>   <m:mtable columnalign="left">    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow>       <m:msup>        <m:mn>2</m:mn>        <m:mn>2</m:mn>       </m:msup>             </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mtext>from </m:mtext><m:mn>484</m:mn>      </m:mrow>     </m:mtd>    </m:mtr>    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow>       <m:msup>        <m:mn>3</m:mn>        <m:mn>1</m:mn>       </m:msup>             </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mtext>from </m:mtext><m:mn>33</m:mn>      </m:mrow>     </m:mtd>    </m:mtr>    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow>       <m:msup>        <m:mn>5</m:mn>        <m:mn>1</m:mn>       </m:msup>             </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mtext>from </m:mtext><m:mn>110</m:mn>      </m:mrow>     </m:mtd>    </m:mtr>    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow>       <m:msup>        <m:mrow>         <m:mn>11</m:mn>        </m:mrow>        <m:mn>2</m:mn>       </m:msup>             </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mtext>from </m:mtext><m:mn>484</m:mn>      </m:mrow>     </m:mtd>    </m:mtr>       </m:mtable>  </m:mrow>   </m:semantics></m:math></item><item>The LCM is the product of these numbers.<newline/><newline/><m:math> <m:semantics>  <m:mrow>   <m:mtable columnalign="left">    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow>       <m:mtext>LCM</m:mtext>      </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:msup>        <m:mn>2</m:mn>        <m:mn>2</m:mn>       </m:msup>       <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:msup>        <m:mrow>         <m:mn>11</m:mn>        </m:mrow>        <m:mn>2</m:mn>       </m:msup>             </m:mrow>     </m:mtd>    </m:mtr>    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mn>4</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>121</m:mn>      </m:mrow>     </m:mtd>    </m:mtr>    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mn>7260</m:mn>      </m:mrow>     </m:mtd>    </m:mtr>       </m:mtable>  </m:mrow>   </m:semantics></m:math></item></list> Thus, 7260 is the smallest number that 33, 110, and 484 divide into without remainders.</para></example></section>
+
+<section id="fs-id9188262" class="homework"><title>Exercises</title><para id="fs-id10507703">For the following problems, find the least common multiple of given numbers.</para><exercise id="fs-id10831255"><problem id="fs-id10831256"><para id="fs-id10831257">8, 12</para>
+</problem><solution id="zip-id19742444"><para id="zip-id19742445"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mn>2</m:mn>
+    <m:mn>3</m:mn>
+   </m:msup>
+   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id8194456"><problem id="fs-id8194457"><para id="fs-id8194458">8, 10</para>
+</problem></exercise><exercise id="fs-id10179964"><problem id="fs-id10179965"><para id="fs-id10179966">6, 12</para>
+</problem><solution id="zip-id19684885"><para id="zip-id19684886"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mn>2</m:mn>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id10825669"><problem id="fs-id10825670"><para id="fs-id10825671">9, 18</para>
+</problem></exercise><exercise id="fs-id9191706"><problem id="fs-id9191707"><para id="fs-id9191708">5, 6</para>
+</problem><solution id="zip-id19720910"><para id="zip-id19720911"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id9009170"><problem id="fs-id9009171"><para id="fs-id9009172">7, 9</para>
+</problem></exercise><exercise id="fs-id9097477"><problem id="fs-id9097478"><para id="fs-id9097479">28, 36</para>
+</problem><solution id="zip-id7662431"><para id="zip-id20689050"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mn>2</m:mn>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:msup>
+    <m:mn>3</m:mn>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>7</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id9173929"><problem id="fs-id9173930"><para id="fs-id9173931">24, 36</para>
+</problem></exercise><exercise id="fs-id9870803"><problem id="fs-id9870804"><para id="fs-id9870805">28, 42</para>
+</problem><solution id="zip-id19600409"><para id="zip-id19764676"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mn>2</m:mn>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>7</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id9850177"><problem id="fs-id9850178"><para id="fs-id9850179">20, 24</para>
+</problem></exercise><exercise id="fs-id10193856"><problem id="fs-id10193857"><para id="fs-id10193858">25, 30</para>
+</problem><solution id="zip-id19601943"><para id="zip-id19601944"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:msup>
+    <m:mn>5</m:mn>
+    <m:mn>2</m:mn>
+   </m:msup>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id9901100"><problem id="fs-id9901102"><para id="fs-id9901103">24, 54</para>
+</problem></exercise><exercise id="fs-id11138123"><problem id="fs-id11138124"><para id="fs-id11138125">16, 24</para>
+</problem><solution id="zip-id6780319"><para id="zip-id6780320"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mn>2</m:mn>
+    <m:mn>4</m:mn>
+   </m:msup>
+   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id9065472"><problem id="fs-id9065473"><para id="fs-id9065474">36, 48</para>
+</problem></exercise><exercise id="fs-id10559872"><problem id="fs-id10559873"><para id="fs-id10559874">15, 21</para>
+</problem><solution id="zip-id19672731"><para id="zip-id19753720"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>7</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id9981683"><problem id="fs-id9981684"><para id="fs-id9981685">7, 11, 33</para>
+</problem></exercise><exercise id="fs-id9073809"><problem id="fs-id9073810"><para id="fs-id9073811">8, 10, 15</para>
+</problem><solution id="zip-id19712537"><para id="zip-id19712538"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mn>2</m:mn>
+    <m:mn>3</m:mn>
+   </m:msup>
+   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id9757324"><problem id="fs-id9757325"><para id="fs-id9757326">4, 5, 21</para>
+</problem></exercise><exercise id="fs-id9923873"><problem id="fs-id9923874"><para id="fs-id9923876">45, 63, 98</para>
+</problem><solution id="zip-id20675108"><para id="zip-id20675109"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:msup>
+    <m:mn>3</m:mn>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:msup>
+    <m:mn>7</m:mn>
+    <m:mn>2</m:mn>
+   </m:msup>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id10177204"><problem id="fs-id10177205"><para id="fs-id10177206">15, 25, 40</para>
+</problem></exercise><exercise id="fs-id10487906"><problem id="fs-id10487907"><para id="fs-id10487908">12, 16, 20</para>
+</problem><solution id="zip-id9752299"><para id="zip-id9752300"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mn>2</m:mn>
+    <m:mn>4</m:mn>
+   </m:msup>
+   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id10406144"><problem id="fs-id10406145"><para id="fs-id10406146">12, 16, 24</para>
+</problem></exercise><exercise id="fs-id9069294"><problem id="fs-id9069295"><para id="fs-id9069296">12, 16, 24, 36</para>
+</problem><solution id="zip-id19690780"><para id="zip-id19690781"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mn>2</m:mn>
+    <m:mn>4</m:mn>
+   </m:msup>
+   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:msup>
+    <m:mn>3</m:mn>
+    <m:mn>2</m:mn>
+   </m:msup>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id9844481"><problem id="fs-id9844482"><para id="fs-id9844483">6, 9, 12, 18</para>
+</problem></exercise><exercise id="fs-id9844487"><problem id="fs-id10192683"><para id="fs-id10192684">8, 14, 28, 32</para>
+</problem><solution id="zip-id20894372"><para id="zip-id19739686"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mn>2</m:mn>
+    <m:mn>5</m:mn>
+   </m:msup>
+   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>7</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise></section>  </content></document>

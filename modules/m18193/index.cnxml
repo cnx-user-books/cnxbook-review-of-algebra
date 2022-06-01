@@ -1,0 +1,74 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title/>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>ad02f204-b289-4a8f-91b3-6f565ae0e487</md:uuid>
+</metadata>
+  <content>
+      <para id="id47747750">Why are functions so important that they form the heart of math from Algebra II onward?</para>
+      <para id="id47281887">Functions are used whenever <emphasis>one variable depends on another variable.</emphasis> This relationship between two variables is the most important in mathematics. It is a way of saying “If you tell me what <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:mo stretchy="false"/><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn/></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=x rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> is, I can tell you what <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:mo stretchy="false"/><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn/></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=x rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> is.” We say that <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:mo stretchy="false"/><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn/></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=x rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> “depends on” <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:mo stretchy="false"/><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn/></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=x rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, or      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>y</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     “is a function of” <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:mo stretchy="false"/><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn/></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=x rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id47794618">A few examples:</para>
+      <example id="element-845"><title>Function Concepts -- Functions in the Real World</title>
+<list id="element-270" list-type="bulleted"><item>"The area of a circle depends on its radius."</item>
+	<item>"The amount of money Alice makes depends on the number of hours she works."</item>
+	<item>“Max threw a ball. The height of the ball depends on how many seconds it has been in the air.”</item></list>
+</example>
+      
+      
+      
+      <para id="id47790785">In each case, there are two variables. Given enough information about the scenario, you could assert that <emphasis>if you tell me this variable, I will tell you that one</emphasis>. For instance, suppose you know that Alice makes $100 per day. Then we could make a chart like this.</para>
+      <table id="id47828994" summary="A chart displaying the pay rate of Alice who gets paid $100 a day. The left column shows the number of days she worked while the right displays the corresponding pay for that day. ">
+
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <thead>
+            <row>
+              <entry>If Alice works this many days...</entry>
+              <entry>...she makes this many dollars</entry>
+            </row>
+</thead>
+<tbody>
+            <row>
+              <entry>0</entry>
+              <entry>0</entry>
+            </row>
+            <row>
+              <entry>1</entry>
+              <entry>100</entry>
+            </row>
+            <row>
+              <entry>1½</entry>
+              <entry>150</entry>
+            </row>
+            <row>
+              <entry>8</entry>
+              <entry>800</entry>
+            </row>
+          </tbody>
+        
+</tgroup>
+</table>
+      <para id="id47566207">If you tell me how long she has worked, I will tell you how much money she has made. Her earnings “depend on” how long she works.</para>
+      <para id="id47823861">The two variables are referred to as the <emphasis>dependent variable </emphasis>and the <emphasis>independent variable</emphasis>. The dependent variable is said to “depend on” or “be a function of” the independent variable. “The height of the ball is a function of the time.”</para>
+      <example id="element-587"><title>  Bad Examples of Functional Relationships </title><list id="element-130" list-type="bulleted"><item>"The number of Trojan soldiers depends on the number of Greek soldiers."</item>
+	<item>"The time depends on the height of the ball."</item>
+	</list>
+</example>
+      
+      
+      <para id="id47329689">The first of these two examples is by far the most common. It is simply not true. There may be a relationship between these two quantities—for instance, the <emphasis>sum</emphasis> of these two variables might be the total number of soldiers, and the<emphasis> difference</emphasis> between these two quantities might suggest whether the battle will be a fair one. But there is no <emphasis>dependency</emphasis> relationship—that is, no way to say “If you tell me the number of Greek soldiers, I will tell you the number of Trojan soldiers”—so this is not a function.</para>
+      <para id="id47779844">The second example is subtler: it confuses the <emphasis>dependent</emphasis> and the <emphasis>independent</emphasis> variables. The height depends on the time, not the other way around. More on this in the discussion of “Inverse Functions".</para>
+
+  </content>
+</document>

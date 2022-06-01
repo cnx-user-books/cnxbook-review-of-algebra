@@ -1,0 +1,819 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Function Concepts -- Inverse Functions</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18198</md:content-id>
+  <md:title>Function Concepts -- Inverse Functions</md:title>
+  <md:abstract>This module describes what inverse functions are and how they can be used.</md:abstract>
+  <md:uuid>9968d60a-8c92-4ab9-9816-466bb3db5fd7</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/inverse-exponential-and-logarithmic-functions/t/proving-two-functions-are-inverses" strength="3">Proving Inverse Functions Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/inverse-exponential-and-logarithmic-functions/t/finding-an-inverse-graphically" strength="3">Graphing Inverse Functions Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/inverse-exponential-and-logarithmic-functions/t/finding-an-inverse-algebraically" strength="3">Finding the Inverse Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/inverse-exponential-and-logarithmic-functions/t/definition-of-inverse" strength="3">Definition of Inverse Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="element-851">Let's go back to Alice, who makes $100/day. We know how to answer questions such as "After 3 days, how much money has she made?" We use the function 
+<m:math>
+<m:mi>m</m:mi>
+<m:mo>(</m:mo>
+<m:mi>t</m:mi>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>100</m:mn>
+<m:mi>t</m:mi>
+</m:math>.</para><para id="element-398">But suppose I want to ask the reverse question: “If Alice has made $300, how many hours has she worked?”  This is the job of an inverse function.  It gives the same relationship, but reverses the dependent and independent variables.  
+<m:math>
+<m:mi>t</m:mi>
+<m:mo>(</m:mo>
+<m:mi>m</m:mi>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mi>m</m:mi>
+<m:mo>/</m:mo>
+<m:mn>100</m:mn>
+</m:math>.  Given any amount of money, divide it by 100 to find how many days she has worked.</para><list id="element-188" list-type="labeled-item"><item><emphasis>If a function answers the question:</emphasis> “Alice worked this long, how much money has she made?”
+<emphasis>then its inverse answers the question:</emphasis> “Alice made this much money, how long did she work?"</item>
+<item><emphasis>If a function answers the question:</emphasis> “I have this many spoons, how much do they weigh?”
+<emphasis>then its inverse answers the question:</emphasis> “My spoons weigh this much, how many do I have?”</item>
+<item><emphasis>If a function answers the question:</emphasis> “How many hours of music fit on 12 CDs?”
+<emphasis>then its inverse answers the question:</emphasis> “How many CDs do you need for 3 hours of music?”</item>
+</list>
+<section id="uid9997097097097"><title>How do you recognize an inverse function?</title>
+<para id="id3987382">Let’s look at the two functions above:</para>
+    <equation id="id11826171">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>m</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>t</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>100</m:mtext>
+                  </m:mrow>
+                  <m:mi>t</m:mi>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{m \( t \) ="100"t} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <equation id="id9843474">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>t</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>m</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mi>m</m:mi>
+                      <m:mo stretchy="false">/</m:mo>
+                      <m:mtext>100</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{t \( m \) =m/"100"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="id5933966">Mathematically, you can recognize these as inverse functions because they <emphasis>reverse the inputs and the outputs</emphasis>.</para>
+    <table id="element-827" rowsep="0" summary="">
+<tgroup cols="1" align="center"><tbody>
+  <row>
+    <entry>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>3</m:mn>
+                  <m:mo stretchy="false">→</m:mo>
+                  <m:mi>m</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>t</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>100</m:mtext>
+                  </m:mrow>
+                  <m:mi>t</m:mi>
+                  <m:mo stretchy="false">→</m:mo>
+                  <m:mtext>300</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{3 rightarrow m \( t \) ="100"t rightarrow "300"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </entry>
+  </row>
+  <row>
+    <entry>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mtext>300</m:mtext>
+                  <m:mo stretchy="false">→</m:mo>
+                  <m:mi>t</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>m</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mi>m</m:mi>
+                      <m:mo stretchy="false">/</m:mo>
+                      <m:mtext>100</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo stretchy="false">→</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"300" rightarrow t \( m \) =m/"100" rightarrow 3} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    
+    </entry>
+  </row>
+  <row>
+    <entry><m:math><m:mi>✓</m:mi></m:math> 
+<emphasis>Inverse functions</emphasis>
+    </entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+</tgroup>
+</table>
+    
+    
+    <para id="id6586208">Of course, this makes logical sense. The first line above says that “If Alice works 3 hours, she makes $300.” The second line says “If Alice made $300, she worked 3 hours.” It’s the same statement, made in two different ways.</para>
+    <para id="id12734254">But this “reversal” property gives us a way to test any two functions to see if they are inverses. For instance, consider the two functions:</para>
+    <equation id="id10564508">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mn>3x</m:mn>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mn>7</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{f \( x \) =3x+7} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <equation id="id9351124">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>g</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>7</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{g \( x \) = {  { size 8{1} }  over  { size 8{3} } } x - 7} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="id7800404">They <emphasis>look</emphasis> like inverses, don’t they? But let’s test and find out.</para>
+    <table id="element-386" rowsep="0" summary="Each function is solved step-by-step.">
+<tgroup cols="1" align="center"><tbody>
+  <row>
+    <entry>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mo stretchy="false">→</m:mo>
+                  <m:mrow>
+                    <m:mn>3x</m:mn>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mn>7</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">→</m:mo>
+                  <m:mtext>13</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{2 rightarrow 3x+7 rightarrow "13"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </entry>
+  </row>
+  <row>
+    <entry>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>13</m:mn>
+                  <m:mo stretchy="false">→</m:mo>
+                  <m:mrow>
+                    <m:mfrac><m:mn>3</m:mn><m:mn>x</m:mn></m:mfrac>
+                    <m:mo stretchy="false">-</m:mo>
+                    <m:mn>7</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">→</m:mo>
+                  <m:mrow>
+                    <m:mfrac><m:mn>13</m:mn><m:mn>3</m:mn></m:mfrac>
+                    <m:mo stretchy="false">-</m:mo>
+                    <m:mn>7</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">→</m:mo>
+                  <m:mrow>
+                    <m:mo stretchy="false">-</m:mo>
+                    <m:mfrac><m:mn>8</m:mn><m:mn>3</m:mn></m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"13" rightarrow 1/3x-7 rightarrow "13"/3-7 rightarrow -8/3 } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </entry>
+  </row>
+  <row>
+    <entry><m:math><m:mi>✗</m:mi></m:math> <emphasis>Not inverse functions</emphasis>
+    </entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+
+
+</tgroup>
+</table>
+    
+    
+    <para id="id8402934">The first function turns a 2 into a 13. But the second function does <emphasis>not</emphasis> turn 13 into 2. So these are not inverses.</para>
+    <para id="id8719597">On the other hand, consider:</para>
+    <equation id="id3985403">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mn>3x</m:mn>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mn>7</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{f \( x \) =3x+7} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <equation id="id8922924">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>g</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mfenced open="(" close=")">
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mn>7</m:mn>
+                    </m:mrow>
+                  </m:mfenced>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{g \( x \) = {  { size 8{1} }  over  { size 8{3} } }  left (x - 7 right )} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="id12652387">Let’s run our test of inverses on these two functions.</para>
+    <table id="element-412" rowsep="0" summary="">
+<tgroup cols="1" align="center"><tbody>
+  <row>
+    <entry>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mo stretchy="false">→</m:mo>
+                  <m:mrow>
+                    <m:mn>3x</m:mn>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mn>7</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">→</m:mo>
+                  <m:mtext>13</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{2 rightarrow 3x+7 rightarrow "13"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </entry>
+  </row>
+  <row>
+    <entry>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mtext>13</m:mtext>
+                  <m:mo stretchy="false">→</m:mo>
+                  <m:mfrac>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mfrac>
+                  <m:mfenced open="(" close=")">
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mn>7</m:mn>
+                    </m:mrow>
+                  </m:mfenced>
+                  <m:mo stretchy="false">→</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"13" rightarrow  {  { size 8{1} }  over  { size 8{3} } }  left (x - 7 right ) rightarrow 2} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </entry>
+  </row>
+  <row>
+    <entry><m:math><m:mi>✓</m:mi></m:math> <emphasis>Inverse functions</emphasis></entry>
+  </row>
+</tbody>
+
+
+
+
+</tgroup>
+</table>
+    
+    
+    <para id="id12111769">So we can see that these functions do, in fact, reverse each other: they are inverses.</para>
+    <para id="id13820394">A common example is the Celsius-to-Fahrenheit conversion:</para>
+    <equation id="id12737095">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>F</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>C</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfenced open="(" close=")">
+                      <m:mfrac>
+                        <m:mn>9</m:mn>
+                        <m:mn>5</m:mn>
+                      </m:mfrac>
+                    </m:mfenced>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>C</m:mi>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mtext>32</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{F \( C \) = left ( {  {9}  over  {5} }  right )C+"32"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <equation id="id3230635">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>C</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>F</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfenced open="(" close=")">
+                      <m:mfrac>
+                        <m:mn>5</m:mn>
+                        <m:mn>9</m:mn>
+                      </m:mfrac>
+                    </m:mfenced>
+                  </m:mrow>
+                  <m:mfenced open="(" close=")">
+                    <m:mrow>
+                      <m:mi>F</m:mi>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mtext>32</m:mtext>
+                    </m:mrow>
+                  </m:mfenced>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{C \( F \) = left ( {  {5}  over  {9} }  right ) left (F - "32" right )} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="id9006112">where 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C} {}</m:annotation></m:semantics></m:math> is the Celsius temperature and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>F</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> the Fahrenheit. If you plug 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>100</m:mtext><m:mi>°</m:mi><m:mi>C</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"100"°C} {}</m:annotation></m:semantics></m:math> into the first equation, you find that it is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>212</m:mtext><m:mi>°</m:mi><m:mi>F</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"212"°F} {}</m:annotation></m:semantics></m:math>. If you ask the second equation about 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>212</m:mtext><m:mi>°</m:mi><m:mi>F</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"212"°F} {}</m:annotation></m:semantics></m:math>, it of course converts that back into 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>100</m:mtext><m:mi>°</m:mi><m:mi>C</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"100"°C} {}</m:annotation></m:semantics></m:math>.</para>
+</section>
+    <section id="id-0217693397485">
+      <title>The notation and definition of an inverse function</title>
+      <para id="id12710505">The notation for the inverse function of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSup { size 8{ - 1} }  \( x \) } {}</m:annotation></m:semantics></m:math>. This notation can cause considerable confusion, because it <emphasis>looks like</emphasis> an exponent, but it isn’t. 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSup { size 8{ - 1} }  \( x \) } {}</m:annotation></m:semantics></m:math> simply means “the inverse function of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math>.” It is defined formally by the fact that if you plug any number 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> into one function, and then plug the result into the other function, you get back where you started. (Take a moment to convince yourself that this is the same definition I gave above more informally.) We can represent this as a composition function by saying that
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:msup><m:mi>f</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( f rSup { size 8{ - 1} }  \( x \)  \) =x} {}</m:annotation></m:semantics></m:math>.</para>
+      <definition id="id8403665">
+         <term>Inverse Function</term>
+      <meaning id="id1170075373899"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSup { size 8{ - 1} }  \( x \) } {}</m:annotation></m:semantics></m:math> is defined as the <emphasis>inverse function</emphasis> of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> if it consistently reverses the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> process. That is, if 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> turns 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> into 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b} {}</m:annotation></m:semantics></m:math>, then 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSup { size 8{ - 1} }  \( x \) } {}</m:annotation></m:semantics></m:math> must turn 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b} {}</m:annotation></m:semantics></m:math> into 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math>. More concisely and formally, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSup { size 8{ - 1} }  \( x \) } {}</m:annotation></m:semantics></m:math> is the inverse function of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> if 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:msup><m:mi>f</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( f rSup { size 8{ - 1} }  \( x \)  \) =x} {}</m:annotation></m:semantics></m:math>.</meaning></definition>
+    </section>
+    <section id="id-895820659182">
+      <title>Finding an inverse function</title>
+      <para id="id10599567">In examples above, we saw that if
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>3x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) =3x+7} {}</m:annotation></m:semantics></m:math>, then 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:mfrac></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow></m:mfenced></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSup { size 8{ - 1} }  \( x \) = {  { size 8{1} }  over  { size 8{3} } }  left (x - 7 right )} {}</m:annotation></m:semantics></m:math>. We also saw that the function 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:mfrac><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { size 8{1} }  over  { size 8{3} } } x - 7} {}</m:annotation></m:semantics></m:math>, which may have looked just as likely, did <emphasis>not</emphasis> work as an inverse function. So in general, given a function, how do you find its inverse function?</para>
+      <para id="id3230733">Remember that an inverse function reverses the inputs and outputs. When we graph functions, we always represent the incoming number as 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> and the outgoing number as 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>. So to find the inverse function, <emphasis>switch the x and y values, and then solve for </emphasis><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>.</para>
+      <example id="id5318459"><title> Building and Testing an Inverse Function</title><list id="building" list-type="enumerated"><item>Find the inverse function of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) = {  {2x - 3}  over  {5} } } {}</m:annotation></m:semantics></m:math>
+
+<list id="id5497302" list-type="labeled-item"><item><label>a.</label>Write the function as 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= {  {2x - 3}  over  {5} } } {}</m:annotation></m:semantics></m:math></item><item><label>b.</label>Switch the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math> variables. 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>2y</m:mn><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x= {  {2y - 3}  over  {5} } } {}</m:annotation></m:semantics></m:math></item><item><label>c.</label>Solve for 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>. 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>5x</m:mn><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>2y</m:mn><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5x=2y - 3} {}</m:annotation></m:semantics></m:math>. 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>5x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>2y</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5x+3=2y} {}</m:annotation></m:semantics></m:math>. 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mrow><m:mn>5x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">=</m:mo><m:mi>y</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {5x+3}  over  {2} } =y} {}</m:annotation></m:semantics></m:math>. So 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>5x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSup { size 8{ - 1} }  \( x \) = {  {5x+3}  over  {2} } } {}</m:annotation></m:semantics></m:math>.</item></list></item>
+<item>Test to make sure this solution fills the definition of an inverse function.
+<list id="id12663744" list-type="labeled-item"><item><label>a.</label>Pick a number, and plug it into the original function. 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>9</m:mn><m:mo stretchy="false">→</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">→</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{9 rightarrow f \( x \)  rightarrow 3} {}</m:annotation></m:semantics></m:math>.</item><item><label>b.</label>See if the inverse function reverses this process. 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">→</m:mo><m:msup><m:mi>f</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">→</m:mo><m:mn>9</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 rightarrow f rSup { size 8{ - 1} }  \( x \)  rightarrow 9} {}</m:annotation></m:semantics></m:math>. <m:math><m:mi>✓</m:mi></m:math> It worked!</item></list></item></list></example>
+      <para id="id11804360">Were you surprised by the answer? At first glance, it seems that the numbers in the original function (the 2, 3, and 5) have been rearranged almost at random.</para>
+      <para id="id3831817">But with more thought, the solution becomes very intuitive. The original function 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> described the following process: <emphasis>double a number, then subtract 3, then divide by 5</emphasis>. To reverse this process, we need to reverse each step in order: <emphasis>multiply by 5, then add 3, then divide by 2</emphasis>. This is just what the inverse function does.</para>
+    </section>
+    <section id="id-55583795148"><title>Some functions have no inverse function</title>
+      
+      <para id="id5945796">Some functions have no inverse function. The reason is the rule of consistency.</para>
+      <para id="id11775861">For instance, consider the function 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=x rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. This function takes both 3 and –3 and turns them into 9. No problem: a function is allowed to turn different <emphasis>inputs</emphasis> into the same <emphasis>output</emphasis>. However, what does that say about the inverse of this particular function? In order to fulfill the requirement of an inverse function, it would have to take 9, and turn it into both 3 and –3—which is the one and only thing that functions are <emphasis>not</emphasis> allowed to do. Hence, the inverse of this function would not be a function at all!</para>
+      <table id="element-280" summary="A table showing the distance of a ball from the ground in the left column and how much time has elapsed since the ball was thrown up. There are in fact two possible times for the same distance. One for the ball's height on the way up and another on the way down. ">
+
+<tgroup cols="3"><tbody>
+  <row>
+    <entry><m:math>
+          <m:mrow>
+            <m:mstyle fontsize="28pt">
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mtd>
+                      <m:mrow>
+                        <m:mn>3</m:mn>
+                        <m:mo stretchy="false">→</m:mo>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">→</m:mo>
+                      </m:mrow>
+                    </m:mtd>
+                  </m:mtr>
+                </m:mtable>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math></entry>
+    <entry>
+<media id="id1170068727588" alt="f(x)=x-squared Gearbox"><image src="../../media/gearbox_9.png" mime-type="image/png"/></media>
+</entry>
+    <entry>     <m:math>
+          <m:mrow>
+            <m:mstyle fontsize="28pt">
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mtd>
+                      <m:mrow>
+                        <m:mn>9</m:mn>
+                        <m:mo stretchy="false">→</m:mo>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>9</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">→</m:mo>
+                      </m:mrow>
+                    </m:mtd>
+                  </m:mtr>
+                </m:mtable>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math></entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+</tgroup>
+<caption>If 3 goes in, 9 comes out.  If –3 goes in, 9 also comes out.  No problem:  </caption>
+</table><table id="element-967" summary="">
+<tgroup cols="3"><tbody>
+  <row>
+    <entry>     <m:math>
+          <m:mrow>
+            <m:mstyle fontsize="28pt">
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mtd>
+                      <m:mrow>
+                        <m:mn>9</m:mn>
+                        <m:mo stretchy="false">→</m:mo>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>9</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">→</m:mo>
+                      </m:mrow>
+                    </m:mtd>
+                  </m:mtr>
+                </m:mtable>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math></entry>
+    <entry><media id="id1170073363246" alt="The inverse of f(x) Gearbox"><image src="../../media/gearbox_10.png" mime-type="image/png"/></media></entry>
+    <entry><m:math>
+          <m:mrow>
+            <m:mstyle fontsize="28pt">
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mtd>
+                      <m:mrow>
+                        <m:mn>3</m:mn>
+                        <m:mo stretchy="false">→</m:mo>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">→</m:mo>
+                      </m:mrow>
+                    </m:mtd>
+                  </m:mtr>
+                </m:mtable>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math></entry>
+  </row>
+</tbody>
+
+
+
+
+</tgroup>
+<caption>But its inverse would have to turn 9 into both 3 and –3.  No function can do this, so there is no inverse.</caption>
+</table><para id="id6647251">In general, any function that turns multiple inputs into the same output, does not have an inverse function.</para>
+      <para id="id6274987">What does that mean in the real world? If we can convert Fahrenheit to Celsius, we must be able to convert Celsius to Fahrenheit. If we can ask “How much money did Alice make in 3 days?” we must surely be able to ask “How long did it take Alice to make $500?” When would you have a function that cannot be inverted?</para>
+      <para id="id12551362">Let’s go back to this example: </para>
+      <para id="id7599410">Recall the example that was used earlier: “Max threw a ball. The height of the ball depends on how many seconds it has been in the air.” The two variables here are 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>h</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math> (the height of the ball) and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math> (the number of seconds it has been in the air). The function 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h \( t \) } {}</m:annotation></m:semantics></m:math> enables us to answer questions such as “After 3 seconds, where is the ball?”</para>
+      <para id="id12689728">The inverse question would be “At what time was the ball 10 feet in the air?” The problem with that question is, it may well have <emphasis>two answers</emphasis>!</para>
+      <table id="id8930760" summary="">
+        <tgroup cols="2" colsep="1">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <thead>
+            <row rowsep="1">
+              <entry>The ball is here...</entry>
+              <entry>...after this much time has elapsed</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>10 ft</entry>
+              <entry>2 seconds (*on the way up)</entry>
+            </row>
+            <row>
+              <entry>10 ft</entry>
+              <entry>5 seconds (*on the way back down)</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id6042521">So what does that mean? Does it mean we can’t ask that question? Of course not. We can ask that question, and we can expect to mathematically find the answer, or answers—and we will do so in the quadratic chapter. However, it does mean that <emphasis>time is not a function of height</emphasis> because such a “function” would not be consistent: one question would produce multiple answers.</para>
+    </section>
+  </content>
+</document>

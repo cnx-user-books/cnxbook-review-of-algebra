@@ -1,0 +1,144 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml"><title>Arithmetic Review: Prime Factorization</title><metadata>
+  <md:content-id>m21868</md:content-id><md:title>Arithmetic Review: Prime Factorization</md:title>
+  <md:abstract>This module is from Elementary Algebra by Denny Burzynski and Wade Ellis, Jr.
+This chapter contains many examples of arithmetic techniques that are used directly or indirectly in algebra. Since the chapter is intended as a review, the problem-solving techniques are presented without being developed. Therefore, no work space is provided, nor does the chapter contain all of the pedagogical features of the text. As a review, this chapter can be assigned at the discretion of the instructor and can also be a valuable reference tool for the student.</md:abstract>
+  <md:uuid>4a155029-8f92-4bd5-97bd-fb7e54ec47e2</md:uuid>
+</metadata>
+
+<content><section id="fs-id6360387">      <title>Overview</title>      <list id="fs-id6408496" list-type="bulleted">        <item>          Prime And Composite Numbers        </item>        <item>          The Fundamental Principle Of Arithmetic        </item>		<item>          The Prime Factorization Of A Whole Number        </item>      </list>    </section><section id="fs-id6202928">      <title>Prime And Composite Numbers</title><para id="fs-id6205549">Notice that the only factors of 7 are 1 and 7 itself, and that the only factors of 23 are 1 and 23 itself.</para><para id="fs-id6205551" class="highlight"><title>Prime Number</title>A whole number greater than 1 whose only whole number factors are itself and 1 is called a <term>prime number.</term></para><para id="fs-id6131906">The first seven prime numbers are<newline/><newline/>2, 3, 5, 7, 11, 13, and 17<newline/><newline/>The number 1 is not considered to be a prime number, and the number 2 is the first and only even prime number.<newline/>Many numbers have factors other than themselves and 1. For example, the factors of 28 are 1, 2, 4, 7, 14, and 28 (since each of these whole numbers and only these whole numbers divide into 28 without a remainder).</para><para id="fs-id6204133" class="highlight"><title>Composite Numbers</title>A whole number that is composed of factors other than itself and 1 is called a <term>composite number.</term> Composite numbers are not prime numbers.<newline/><newline/>Some composite numbers are 4, 6, 8, 10, 12, and 15.</para></section><section id="fs-id6040479">      <title>The Fundamental Principle Of Arithmetic</title>	  <para id="fs-id5653916">Prime numbers are very important in the study of mathematics. We will use them soon in our study of fractions. We will now, however, be introduced to an important mathematical principle.</para><para id="fs-id6367098" class="highlight"><title>The Fundamental Principle of Arithmetic</title>Except for the order of the factors, every whole number, other than 1, can be factored in one and only one way as a product of prime numbers.</para><para id="fs-id6387473" class="highlight"><title>Prime Factorization</title>When a number is factored so that all its factors are prime numbers, the factorization is called the <term>prime factorization</term> of the number.</para></section><section id="fs-id6203395"><title>Sample Set A</title><example id="fs-id6353852"><para id="fs-id6353854">Find the prime factorization of 10.<newline/><newline/><m:math> <m:semantics>  <m:mrow>   <m:mn>10</m:mn><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn>  </m:mrow>   </m:semantics></m:math><newline/><newline/>Both 2 and 5 are prime numbers. Thus, <m:math> <m:semantics>  <m:mrow>   <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn>  </m:mrow>   </m:semantics></m:math> is the prime factorization of 10.</para></example><example id="fs-id6260823"><para id="fs-id6260824">Find the prime factorization of 60.<newline/><newline/><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mtable columnalign="left">
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mn>60</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>30</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>30 is not prime</m:mtext><m:mo>.</m:mo><m:mtext> </m:mtext><m:mn>30</m:mn><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>15</m:mn>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>15</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mn>15</m:mn><m:mtext> is not prime</m:mtext><m:mo>.</m:mo><m:mtext> </m:mtext><m:mn>15</m:mn><m:mo>=</m:mo><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>We'll use exponents</m:mtext><m:mtext>. </m:mtext><m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mo>=</m:mo><m:msup>
+									<m:mn>2</m:mn>
+									<m:mn>2</m:mn>
+								</m:msup>
+								<m:mtext> </m:mtext>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:msup>
+									<m:mn>2</m:mn>
+									<m:mn>2</m:mn>
+								</m:msup>
+								<m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+		</m:semantics></m:math><newline/><newline/>The numbers 2, 3, and 5 are all primes. Thus, <m:math>
+		<m:mrow>
+			<m:apply>
+				<m:power/>
+				<m:cn>2</m:cn>
+				<m:cn>2</m:cn>
+			</m:apply>
+			<m:mo>·</m:mo>
+			<m:cn>3</m:cn>
+			<m:mo>·</m:mo>
+			<m:cn>5</m:cn>
+		</m:mrow>
+	</m:math> is the prime factorization of 60.</para></example><example id="fs-id6211663"><para id="fs-id6211664">Find the prime factorization of 11.<newline/><newline/>11 is a prime number. Prime factorization applies only to composite numbers.</para></example></section><section id="fs-id6211673">      <title>The Prime Factorization Of A Whole Number</title>	  <para id="fs-id6211678">The following method provides a way of finding the prime factorization of a whole number. The examples that follow will use the method and make it more clear.<list id="fs-id6211683" list-type="enumerated" number-style="arabic" class="highlight"><item>Divide the number repeatedly by the smallest prime number that will divide into the number without a remainder.</item><item>When the prime number used in step 1 no longer divides into the given number without a remainder, repeat the process with the next largest prime number.</item><item>Continue this process until the quotient is 1.</item><item>The prime factorization of the given number is the product of all these prime divisors.</item></list></para></section><section id="fs-id6206190"><title>Sample Set B</title><example id="fs-id6206195"><para id="fs-id6206196">Find the prime factorization of 60.<newline/><newline/>Since 60 is an even number, it is divisible by 2. We will repeatedly divide by 2 until we no longer can (when we start getting a remainder). We shall divide in the following way.<newline/><newline/><media id="fs-id6206206" alt="The prime factorization of sixty. See the longdesc for a full description.">		<image mime-type="image/jpeg" src="../../media/C10_SAR-2_P05_001.jpg" longdesc="C10_SAR-2_P05_001.html" print-width="0.7in"/>	</media>  <m:math>		<m:semantics>			<m:mrow>				<m:mtable columnalign="left">					<m:mtr columnalign="left">						<m:mtd columnalign="left">							<m:mrow>								<m:mtext>30 is divisible by 2 again</m:mtext><m:mtext>.</m:mtext>							</m:mrow>						</m:mtd>					</m:mtr>					<m:mtr columnalign="left">						<m:mtd columnalign="left">							<m:mrow>								<m:mtext>15 is not divisible by 2, but is divisible by 3, the next largest prime</m:mtext><m:mtext>.</m:mtext>							</m:mrow>						</m:mtd>					</m:mtr>					<m:mtr columnalign="left">						<m:mtd columnalign="left">							<m:mrow>								<m:mtext>5 is not divisible by 3, but is divisible by 5, the next largest prime</m:mtext><m:mtext>.</m:mtext>							</m:mrow>						</m:mtd>					</m:mtr>					<m:mtr columnalign="left">						<m:mtd columnalign="left">							<m:mrow>								<m:mtext>The quotient is 1 so we stop the division process</m:mtext><m:mtext>.</m:mtext>							</m:mrow>						</m:mtd>					</m:mtr>				</m:mtable>			</m:mrow>		</m:semantics>	</m:math><newline/><newline/>The prime factorization of 60 is the product of all these divisors.<newline/><newline/><m:math>		<m:semantics>			<m:mrow>				<m:mtable columnalign="left">					<m:mtr columnalign="left">						<m:mtd columnalign="left">							<m:mrow>								<m:mn>60</m:mn>							</m:mrow>						</m:mtd>						<m:mtd columnalign="left">							<m:mo>=</m:mo>						</m:mtd>						<m:mtd columnalign="left">							<m:mrow>								<m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn>							</m:mrow>						</m:mtd>						<m:mtd columnalign="left">							<m:mrow/>						</m:mtd>						<m:mtd columnalign="left">							<m:mrow>								<m:mtext>We will use exponents when possible</m:mtext><m:mo>.</m:mo>							</m:mrow>						</m:mtd>					</m:mtr>					<m:mtr columnalign="left">						<m:mtd columnalign="left">							<m:mrow>								<m:mn>60</m:mn>							</m:mrow>						</m:mtd>						<m:mtd columnalign="left">							<m:mo>=</m:mo>						</m:mtd>						<m:mtd columnalign="left">							<m:mrow>								<m:msup>									<m:mn>2</m:mn>									<m:mn>2</m:mn>								</m:msup>								<m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn>							</m:mrow>						</m:mtd>						<m:mtd columnalign="left">							<m:mrow/>						</m:mtd>						<m:mtd columnalign="left">							<m:mrow/>						</m:mtd>					</m:mtr>				</m:mtable>			</m:mrow>		</m:semantics>	</m:math></para></example><example id="fs-id6212601"><para id="fs-id6212602">Find the prime factorization of 441.<newline/><newline/>Since 441 is an odd number, it is not divisible by 2. We’ll try 3, the next largest prime.<newline/><newline/><media id="fs-id6212612" alt="The prime factorization of four hundred forty-one. See the longdesc for a full description.">		<image mime-type="image/jpeg" src="../../media/C10_SAR-2_P06_001.jpg" longdesc="C10_SAR-2_P06_001.html" print-width="0.7in"/>	</media>  <m:math>		<m:semantics>			<m:mrow>				<m:mtable columnalign="left">					<m:mtr columnalign="left">						<m:mtd columnalign="left">							<m:mrow>								<m:mtext>147 is divisible by 3</m:mtext><m:mo>.</m:mo>							</m:mrow>						</m:mtd>					</m:mtr>					<m:mtr columnalign="left">						<m:mtd columnalign="left">							<m:mrow>								<m:mtext>49 is not divisible by 3 nor by 5</m:mtext><m:mo>,</m:mo><m:mtext> but by 7</m:mtext><m:mo>.</m:mo>							</m:mrow>						</m:mtd>					</m:mtr>					<m:mtr columnalign="left">						<m:mtd columnalign="left">							<m:mrow>								<m:mtext>7 is divisible by 7</m:mtext><m:mtext>.</m:mtext>							</m:mrow>						</m:mtd>					</m:mtr>					<m:mtr columnalign="left">						<m:mtd columnalign="left">							<m:mrow>								<m:mtext>The quotient is 1 so we stop the division process</m:mtext><m:mo>.</m:mo>							</m:mrow>						</m:mtd>					</m:mtr>				</m:mtable>			</m:mrow>		</m:semantics>	</m:math><newline/><newline/>The prime factorization of 441 is the product of all the divisors.<newline/><newline/><m:math>		<m:semantics>			<m:mrow>				<m:mtable columnalign="left">					<m:mtr columnalign="left">						<m:mtd columnalign="left">							<m:mrow>								<m:mn>441</m:mn>							</m:mrow>						</m:mtd>						<m:mtd columnalign="left">							<m:mo>=</m:mo>						</m:mtd>						<m:mtd columnalign="left">							<m:mrow>								<m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>7</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>7</m:mn>							</m:mrow>						</m:mtd>						<m:mtd columnalign="left">							<m:mrow/>						</m:mtd>						<m:mtd columnalign="left">							<m:mrow>								<m:mtext>We will use exponents when possible</m:mtext><m:mo>.</m:mo>							</m:mrow>						</m:mtd>					</m:mtr>					<m:mtr columnalign="left">						<m:mtd columnalign="left">							<m:mrow>								<m:mn>441</m:mn>							</m:mrow>						</m:mtd>						<m:mtd columnalign="left">							<m:mo>=</m:mo>						</m:mtd>						<m:mtd columnalign="left">							<m:mrow>								<m:msup>									<m:mn>3</m:mn>									<m:mn>2</m:mn>								</m:msup>								<m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:msup>									<m:mn>7</m:mn>									<m:mn>2</m:mn>								</m:msup>							</m:mrow>						</m:mtd>						<m:mtd columnalign="left">							<m:mrow/>						</m:mtd>						<m:mtd columnalign="left">							<m:mrow/>						</m:mtd>					</m:mtr>				</m:mtable>			</m:mrow>		</m:semantics>	</m:math></para></example></section><section id="fs-id6212879" class="homework"><title>Exercises</title><para id="eip-id5216364">For the following problems, determine which whole numbers are prime and which are composite.</para>
+<exercise id="eip-id5216369"><problem id="eip-id4757352"><para id="eip-id4757353">23</para></problem><solution id="eip-id4757355"><para id="eip-id4757356">prime</para></solution></exercise>
+<exercise id="eip-id5222121"><problem id="eip-id5222122"><para id="eip-id5222123">25</para></problem></exercise>
+<exercise id="eip-id10697373"><problem id="eip-id10697374"><para id="eip-id10697375">27</para></problem><solution id="eip-id10697377"><para id="eip-id10697378">composite</para></solution></exercise>
+<exercise id="eip-id6352687"><problem id="eip-id6352688"><para id="eip-id6352689">2</para></problem></exercise>
+<exercise id="eip-id13060973"><problem id="eip-id13060974"><para id="eip-id13060975">3</para></problem><solution id="eip-id13060978"><para id="eip-id12800397">prime</para></solution></exercise>
+<exercise id="eip-id12800400"><problem id="eip-id12800401"><para id="eip-id12800402">5</para></problem></exercise>
+<exercise id="eip-id4853951"><problem id="eip-id4853952"><para id="eip-id4853953">7</para></problem><solution id="eip-id5028299"><para id="eip-id5028300">prime</para></solution></exercise>
+<exercise id="eip-id5028303"><problem id="eip-id5028304"><para id="eip-id4736660">9</para></problem></exercise>
+<exercise id="eip-id4736663"><problem id="eip-id4736664"><para id="eip-id4736665">11</para></problem><solution id="eip-id4749759"><para id="eip-id4749760">prime</para></solution></exercise>
+<exercise id="eip-id4749763"><problem id="eip-id9004755"><para id="eip-id9004756">34</para></problem></exercise>
+<exercise id="eip-id9004760"><problem id="eip-id9004761"><para id="eip-id13758431">55</para></problem><solution id="eip-id13758433"><para id="eip-id13758434">composite</para></solution></exercise>
+<exercise id="eip-id4709062"><problem id="eip-id4709063"><para id="eip-id4709064">63</para></problem></exercise>
+<exercise id="eip-id4709068"><problem id="eip-id14420526"><para id="eip-id14420527">1044</para></problem><solution id="eip-id14420529"><para id="eip-id14420530">composite</para></solution></exercise>
+<exercise id="eip-id13695836"><problem id="eip-id13695838"><para id="eip-id13695839">339</para></problem></exercise>
+<exercise id="eip-id4945711"><problem id="eip-id4945712"><para id="eip-id4945713">209</para></problem><solution id="eip-id4945715"><para id="eip-id4945716">composite</para></solution></exercise>
+<para id="eip-id11959122">For the following problems, find the prime factorization of each whole number. Use exponents on repeated factors.</para>
+<exercise id="eip-id4960660"><problem id="eip-id4960662"><para id="eip-id4960663">26</para></problem></exercise>
+<exercise id="eip-id4845098"><problem id="eip-id4845099"><para id="eip-id4845100">38</para></problem><solution id="eip-id4845102"><para id="eip-id4845103"><m:math> <m:semantics>  <m:mrow>   <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>19</m:mn>  </m:mrow>   </m:semantics></m:math></para></solution></exercise>
+<exercise id="eip-id6085850"><problem id="eip-id6085851"><para id="eip-id6085852">54</para></problem></exercise>
+<exercise id="eip-id13730116"><problem id="eip-id13730117"><para id="eip-id13730118">62</para></problem><solution id="eip-id13730120"><para id="eip-id13730121"><m:math> <m:semantics>  <m:mrow>   <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>31</m:mn>  </m:mrow>   </m:semantics></m:math></para></solution></exercise>
+<exercise id="eip-id10271969"><problem id="eip-id10271970"><para id="eip-id10271971">56</para></problem></exercise>
+<exercise id="eip-id4315333"><problem id="eip-id4315334"><para id="eip-id4315335">176</para></problem><solution id="eip-id4315337"><para id="eip-id4315338"><m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mn>2</m:mn>    <m:mn>4</m:mn>   </m:msup>   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>11</m:mn>  </m:mrow>   </m:semantics></m:math></para></solution></exercise>
+<exercise id="eip-id6302200"><problem id="eip-id6302201"><para id="eip-id6302202">480</para></problem></exercise>
+<exercise id="eip-id9028319"><problem id="eip-id9028320"><para id="eip-id9028321">819</para></problem><solution id="eip-id9028323"><para id="eip-id6702699"><m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mn>3</m:mn>    <m:mn>2</m:mn>   </m:msup>   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>7</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>13</m:mn>  </m:mrow>   </m:semantics></m:math></para></solution></exercise>
+<exercise id="eip-id5117052"><problem id="eip-id12172865"><para id="eip-id12172866">2025</para></problem></exercise>
+<exercise id="eip-id12172869"><problem id="eip-id12172870"><para id="eip-id4993196">148,225</para></problem><solution id="eip-id4993199"><para id="eip-id4993200"><m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mn>5</m:mn>    <m:mn>2</m:mn>   </m:msup>   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:msup>    <m:mn>7</m:mn>    <m:mn>2</m:mn>   </m:msup>   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:msup>    <m:mrow>     <m:mn>11</m:mn>    </m:mrow>    <m:mn>2</m:mn>   </m:msup>     </m:mrow>   </m:semantics></m:math></para></solution></exercise></section>  </content></document>

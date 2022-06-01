@@ -1,0 +1,535 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Signed Numbers: Absolute Value</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m35030</md:content-id>
+  <md:title>Signed Numbers: Absolute Value</md:title>
+  <md:abstract>This module is from Fundamentals of Mathematics by Denny Burzynski and Wade Ellis, Jr. This module discusses absolute value. By the end of the module students should understand the geometric and algebraic definitions of absolute value.</md:abstract>
+  <md:uuid>e0286ddf-e4f3-4b66-89b3-e3c0b16465c7</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://cnx.org/content/m34356/latest/" strength="2">Open Textbook Adoptions</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <section id="id1165818432867">
+      <title>Section Overview</title>
+      <list id="id1165821054962" list-type="bulleted">
+        <item>Geometric Definition of Absolute Value</item>
+        <item>Algebraic Definition of Absolute Value</item>
+      </list>
+    </section>
+    <section id="id1165825046154">
+      <title>Geometric Definition of Absolute Value</title>
+      
+      <para id="id1165822829062"><title>Absolute Value-Geometric Approach</title>Geometric definition of absolute value: <newline/>
+The <term>absolute value</term> of a number 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math>, denoted 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>a</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \lline a \rline } {}</m:annotation></m:semantics></m:math>, is the distance from a to 0 on the number line.</para>
+      
+      <para id="id1165818611622">Absolute value answers the question of "how far," and not "which way." The phrase "how far" implies "length" and <emphasis effect="italics">length is always a nonnegative quantity</emphasis>. Thus, the absolute value of a number is a nonnegative number.</para>
+      <section id="id1165835479075"><title>Sample Set A</title><para id="id1165822651861">Determine each value.</para>
+<example id="eip-id1169816769378">
+        <para id="id1165822946093"> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>4</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline 4 rline =4} {}</m:annotation></m:semantics></m:math></para>
+        
+        <para id="eip-259"><media id="id1165821745252_media" alt="A number line with hash marks from 0 to 6, with zero to 4 marked as 4 units in length.">
+            <image mime-type="image/png" src="../../media/graphics1-5b3a.png" id="id1165821745252__onlineimage" print-width="2in" width="280"/>
+          </media></para>
+</example>
+<example id="eip-id1169818003772">
+<para id="id1165828344299">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline  - 4 rline =4} {}</m:annotation></m:semantics></m:math></para>
+        
+        <para id="eip-87"><media id="id1165817665716_media" alt="A number line with hash marks from -6 to 0, with -4 to 0 marked as 4 units in length.">
+            <image mime-type="image/png" src="../../media/graphics2-4c8c.png" id="id1165817665716__onlineimage" print-width="2in" width="280"/>
+          </media></para>
+</example>
+<example id="eip-id1169817998226">
+<para id="id1165818194568">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>0</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline 0 rline =0} {}</m:annotation></m:semantics></m:math></para>
+</example>
+<example id="eip-id1169853059793">
+        <para id="id1165832782833"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>5</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ -  lline 5 rline = - 5} {}</m:annotation></m:semantics></m:math>. The quantity on the left side of the equal sign is read as "negative the absolute value of 5." The absolute value of 5 is 5. Hence, negative the absolute value of 5 is -5.</para>
+        </example>
+<example id="eip-id1169816730765">
+        <para id="id1165830448386"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ -  lline  - 3 rline = - 3} {}</m:annotation></m:semantics></m:math>. The quantity on the left side of the equal sign is read as "negative the absolute value of -3." The absolute value of -3 is 3. Hence, negative the absolute value of -3 is <m:math>
+<m:mo>-</m:mo>
+<m:mo>(</m:mo>
+<m:mn>3</m:mn>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mo>-</m:mo>
+<m:mn>3</m:mn>
+</m:math>.</para>
+      </example></section>
+      <section id="id1165819834225"><title>Practice Set A</title><para id="id2021608">By reasoning geometrically, determine each absolute value.</para>
+        <exercise id="id1165821005444">
+          <problem id="oo-id1165836379192">
+            <para id="id1165817936450">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>7</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline 7 rline } {}</m:annotation></m:semantics></m:math>   </para>
+          </problem>
+<solution id="eip-id1171216900899"><para id="eip-id1171245635047">7</para></solution>
+        </exercise>
+        <exercise id="id1165820350966">
+          <problem id="oo-id1165818201468">
+            <para id="id1165828497468"> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline  - 3 rline } {}</m:annotation></m:semantics></m:math>   </para>
+          </problem>
+<solution id="eip-id1171222802484"><para id="eip-id1171225726202">3</para></solution>
+        </exercise>
+        <exercise id="id8426200">
+          <problem id="oo-id1165818103598">
+            <para id="id1165830372216"> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mtext>12</m:mtext><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline "12" rline } {}</m:annotation></m:semantics></m:math>   </para>
+          </problem>
+<solution id="eip-id1171238006830"><para id="eip-id1171227907192">12</para></solution>
+        </exercise>
+        <exercise id="id1165818177313">
+          <problem id="oo-id1165819636549">
+            <para id="id1165819575416">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>0</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline 0 rline } {}</m:annotation></m:semantics></m:math>   </para>
+          </problem>
+<solution id="eip-id1171236157221"><para id="eip-id1171218289258">0</para></solution>
+        </exercise>
+        <exercise id="id1165828146975">
+          <problem id="oo-id1165819634999">
+            <para id="id1165823846242">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>9</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ -  lline 9 rline } {}</m:annotation></m:semantics></m:math>   </para>
+          </problem>
+<solution id="eip-id1171220554107"><para id="eip-id1171235224830">-9</para></solution>
+        </exercise>
+        <exercise id="id1165819571311">
+          <problem id="oo-id1165826789811">
+            <para id="id1165820343395">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>6</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ -  lline  - 6 rline } {}</m:annotation></m:semantics></m:math>  </para>
+          </problem>
+<solution id="eip-id1171224604389"><para id="eip-id1171213324692">-6</para></solution>
+        </exercise>
+      </section>
+    </section>
+    <section id="id1165824103230">
+      <title>Algebraic Definition of Absolute Value</title>
+      <para id="id1165839140865">From the problems in <link target-id="id1165835479075"/>, we can suggest the following algebraic defini­tion of absolute value. Note that the definition has two parts.</para>
+      
+      <para id="id1165819957511"><title>Absolute Value—Algebraic Approach</title>Algebraic definition of absolute value <newline/>
+The absolute value of a number <emphasis effect="italics">a</emphasis> is <newline/>
+<m:math>
+<m:mo stretchy="false">|</m:mo>
+<m:mi>a</m:mi>
+<m:mo stretchy="false">|</m:mo>
+<m:mo>=</m:mo>
+<m:mfenced open="{" close="">
+<m:mtable>
+<m:mtr>
+<m:mtd columnalign="left">
+<m:mi>a</m:mi><m:mo>,</m:mo>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>if </m:mtext>
+<m:mi>a</m:mi>
+<m:mo>≥</m:mo>
+<m:mn>0</m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd columnalign="left">
+<m:mo>-</m:mo><m:mi>a</m:mi><m:mo>,</m:mo>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>if  </m:mtext>
+<m:mo>&lt;</m:mo>
+<m:mn>0</m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:mfenced>
+</m:math></para>
+      
+
+      
+      <para id="id1165828516634">The algebraic definition takes into account the fact that the number 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> could be either positive or zero 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">≥</m:mo><m:mn>0</m:mn></m:mrow></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (a &gt;= 0 right )} {}</m:annotation></m:semantics></m:math> or negative 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (a&lt;0 right )} {}</m:annotation></m:semantics></m:math>.</para>
+      <list id="id1165828481502" list-type="enumerated" number-style="arabic">
+        <item>If the number 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> is positive or zero
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">≥</m:mo><m:mn>0</m:mn></m:mrow></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (a &gt;= 0 right )} {}</m:annotation></m:semantics></m:math>, the upper part of the definition applies. The upper part of the definition tells us that if the number enclosed in the absolute value bars is a nonnegative number, the absolute value of the number is the number itself.</item>
+        <item>The lower part of the definition tells us that if the number enclosed within the absolute value bars is a negative number, the absolute value of the number is the opposite of the number. The opposite of a negative number is a positive number. </item>
+      </list>
+      <note id="id1165838522012" type="Note">The definition says that the vertical absolute value lines may be elimi­nated only if we know whether the number inside is positive or negative.</note>
+      <section id="id1165817916866"><title>Sample Set B</title><para id="id1165819625027">Use the algebraic definition of absolute value to find the following values.</para>
+<example id="eip-id1165217818574">
+        <para id="id1165818110093"> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>8</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline 8 rline } {}</m:annotation></m:semantics></m:math>. The number enclosed within the absolute value bars is a nonnegative number, so the upper part of the definition applies. This part says that the absolute value of 8 is 8 itself.</para>
+        <para id="id1165821987149">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">∣</m:mo>
+                        <m:mn>8</m:mn>
+                        <m:mo stretchy="false">∣</m:mo>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>8</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ lline 8 rline =8} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+</example>
+<example id="eip-id1165223401058">
+        <para id="id1588053"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline  - 3 rline } {}</m:annotation></m:semantics></m:math>. The number enclosed within absolute value bars is a negative number, so the lower part of the definition applies. This part says that the absolute value of -3 is the opposite of -3, which is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mfenced></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ -  left ( - 3 right )} {}</m:annotation></m:semantics></m:math>. By the definition of absolute value and the double-negative property,</para>
+        <para id="id1165830043401">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">∣</m:mo>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>3</m:mn>
+                          </m:mrow>
+                          <m:mo stretchy="false">∣</m:mo>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>3</m:mn>
+                            </m:mrow>
+                          </m:mfenced>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ lline  - 3 rline = -  left ( - 3 right )=3} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+      </example></section>
+      <section id="id1165819593877"><title>Practice Set B</title><para id="id1165825092114">Use the algebraic definition of absolute value to find the following values.</para>
+        <exercise id="id1165825656027">
+          <problem id="oo-id1165817404768">
+            <para id="id1165834700595">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>7</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline 7 rline } {}</m:annotation></m:semantics></m:math>  </para>
+          </problem>
+<solution id="eip-id1171867640272"><para id="eip-id2133053">7</para></solution>
+        </exercise>
+        <exercise id="id1165819705996">
+          <problem id="oo-id1165819375387">
+            <para id="id1165819615955"> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>9</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline 9 rline } {}</m:annotation></m:semantics></m:math>  </para>
+          </problem>
+<solution id="eip-id1171853795604"><para id="eip-id1171857329133">9</para></solution>
+        </exercise>
+        <exercise id="id1165838970216">
+          <problem id="oo-id1165828663833">
+            <para id="id1165821039551">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>12</m:mtext></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline  - "12" rline } {}</m:annotation></m:semantics></m:math> </para>
+          </problem>
+<solution id="eip-id1171862350185"><para id="eip-id1171872389049">12</para></solution>
+        </exercise>
+        <exercise id="id1165822908520">
+          <problem id="oo-id1165819811120">
+            <para id="id1165822222850"> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline  - 5 rline } {}</m:annotation></m:semantics></m:math>  </para>
+          </problem>
+<solution id="eip-id1171861174303"><para id="eip-id1171857147491">5</para></solution>
+        </exercise>
+        <exercise id="id1165822887594">
+          <problem id="oo-id1165818210504">
+            <para id="id1165820047102">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>8</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ -  lline 8 rline } {}</m:annotation></m:semantics></m:math>  </para>
+          </problem>
+<solution id="eip-id1171865486427"><para id="eip-id1171857031582">-8</para></solution>
+        </exercise>
+        <exercise id="id1165817945569">
+          <problem id="oo-id1165818620745">
+            <para id="id1165817926271"> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>1</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ -  lline 1 rline } {}</m:annotation></m:semantics></m:math>  </para>
+          </problem>
+<solution id="eip-id2128512"><para id="eip-id1171861690904">-1</para></solution>
+        </exercise>
+        <exercise id="id1165819953422">
+          <problem id="oo-id1165819529054">
+            <para id="id1165819596921">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>52</m:mtext></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ -  lline  - "52" rline } {}</m:annotation></m:semantics></m:math> </para>
+          </problem>
+<solution id="eip-id1171848911354"><para id="eip-id1171858121906">-52</para></solution>
+        </exercise>
+        <exercise id="id1165818172981">
+          <problem id="oo-id1165819958654">
+            <para id="id1165821620246"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>31</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ -  lline  - 31 rline } {}</m:annotation></m:semantics></m:math> </para>
+          </problem>
+<solution id="eip-id1171867686882"><para id="eip-id1171859300648">-31</para></solution>
+        </exercise>
+      </section>
+    </section>
+    <section id="id1165828427679"><title>Exercises</title><para id="eip-302">Determine each of the values.</para><exercise id="id1165828514591">
+        <problem id="oo-id1165819422826">
+          <para id="id1165830455627">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>5</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline 5 rline } {}</m:annotation></m:semantics></m:math>   </para>
+        </problem>
+<solution id="eip-id1171954980210"><para id="eip-id1171955715264">5</para></solution>
+      </exercise>
+      <exercise id="id1165825580980">
+        <problem id="oo-id1165822817763">
+          <para id="id1165819375078">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>3</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline 3 rline } {}</m:annotation></m:semantics></m:math></para>
+        </problem>
+      </exercise>
+      <exercise id="id1165828615395">
+        <problem id="oo-id1531808">
+          <para id="id1165819631326">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>6</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline 6 rline } {}</m:annotation></m:semantics></m:math>  </para>
+        </problem>
+<solution id="eip-id1171952312712"><para id="eip-id7015217"> 6</para></solution>
+      </exercise>
+      <exercise id="id1165827857770">
+        <problem id="oo-id1665442">
+          <para id="id1165820465287">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline -9 rline } {}</m:annotation></m:semantics></m:math></para>
+        </problem>
+      </exercise>
+      <exercise id="id1165818121077">
+        <problem id="oo-id1165818562893">
+          <para id="id1165826872154"> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline -1 rline } {}</m:annotation></m:semantics></m:math>   </para>
+        </problem>
+<solution id="eip-id1171959356780"><para id="eip-id7489965">1</para></solution>
+      </exercise>
+      <exercise id="id1165818369466">
+        <problem id="oo-id1165839942714">
+          <para id="id1165839060778">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline -4 rline } {}</m:annotation></m:semantics></m:math></para>
+        </problem>
+      </exercise>
+      <exercise id="id1165820055039">
+        <problem id="oo-id1165817980325">
+          <para id="id1165822147813">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>3</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{- lline 3 rline } {}</m:annotation></m:semantics></m:math>   </para>
+        </problem>
+<solution id="eip-id1171947955666"><para id="eip-id1171953067256">-3</para></solution>
+      </exercise>
+      <exercise id="id1165820973449">
+        <problem id="oo-id1165818573074">
+          <para id="id1165822138280">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>7</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{- lline 7 rline } {}</m:annotation></m:semantics></m:math></para>
+        </problem>
+      </exercise>
+      <exercise id="id1165820562520"><problem id="oo-id1165817716083">
+          <para id="id1165821330426"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo>-</m:mo>
+<m:mn>14</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{- lline –14 rline } {}</m:annotation></m:semantics></m:math></para>
+        </problem>
+<solution id="eip-id1171950587795"><para id="eip-id1171951634194">-14</para></solution>
+      </exercise>
+      <exercise id="id1165820265575">
+        <problem id="oo-id1165819663429">
+          <para id="id1165821119753">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>0</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline 0 rline } {}</m:annotation></m:semantics></m:math></para>
+        </problem>
+      </exercise>
+      <exercise id="id1165823872041">
+        <problem id="oo-id1165833764990">
+          <para id="id1165831022254"> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>26</m:mtext></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline -"26" rline } {}</m:annotation></m:semantics></m:math>  </para>
+        </problem>
+<solution id="eip-id1171952850916"><para id="eip-id1803933">26</para></solution>
+      </exercise>
+      <exercise id="id1165830360452">
+        <problem id="oo-id1165825853440">
+          <para id="id1165825184325">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>26</m:mtext></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{- lline -"26" rline } {}</m:annotation></m:semantics></m:math></para>
+        </problem>
+      </exercise>
+      <exercise id="id1165820537857">
+        <problem id="oo-id1165825170810">
+          <para id="id1165823748489">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>4</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mfenced></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{- left (- lline 4 rline  right )} {}</m:annotation></m:semantics></m:math>  </para>
+        </problem>
+<solution id="eip-id1171953455357"><para id="eip-id1171947987241">4</para></solution>
+      </exercise>
+      <exercise id="id1165819379313">
+        <problem id="oo-id1165819747479">
+          <para id="id1165820837780">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>2</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mfenced></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{- left (- lline 2 rline  right )} {}</m:annotation></m:semantics></m:math></para>
+        </problem>
+      </exercise>
+      <exercise id="id1165820469848">
+        <problem id="oo-id1165818167508">
+          <para id="id1165838762470">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>6</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mfenced></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{- left (- lline -6 rline  right )} {}</m:annotation></m:semantics></m:math>  </para>
+        </problem>
+<solution id="eip-id8819566"><para id="eip-id1171955761008">6</para></solution>
+      </exercise>
+      <exercise id="id1165822324630">
+        <problem id="oo-id1165817909726">
+          <para id="id1165826314326">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>42</m:mtext></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mfenced></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{- left (- lline -"42" rline  right )} {}</m:annotation></m:semantics></m:math></para>
+        </problem>
+      </exercise>
+      <exercise id="id1165835378744">
+        <problem id="oo-id1165819630363">
+          <para id="id1165830367525">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>5</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline 5 rline - lline -2 rline } {}</m:annotation></m:semantics></m:math>  </para>
+        </problem>
+<solution id="eip-id8464577"><para id="eip-id1171949368281"> 3</para></solution>
+      </exercise>
+      <exercise id="id1165821289774">
+        <problem id="oo-id1165818420778">
+          <para id="id1165820268863">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline -2 rline  rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math></para>
+        </problem>
+      </exercise>
+      <exercise id="id1165819458749">
+        <problem id="oo-id1165818140931">
+          <para id="id1165819373015">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">⋅</m:mo><m:mn>3</m:mn></m:mrow></m:mfenced></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline - left (2 cdot 3 right ) rline } {}</m:annotation></m:semantics></m:math>  </para>
+        </problem>
+<solution id="eip-id1171952900145"><para id="eip-id1171952133667"> 6</para></solution>
+      </exercise>
+      <exercise id="id1165824260849">
+        <problem id="oo-id1165819412949">
+          <para id="id1165833475297">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline -2 rline - lline -9 rline } {}</m:annotation></m:semantics></m:math></para>
+        </problem>
+      </exercise>
+      <exercise id="id1165819984503">
+        <problem id="oo-id1165827792294">
+          <para id="id1165820409741">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>6</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">+</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>4</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( lline -6 rline + lline 4 rline  right ) rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>  </para>
+        </problem>
+<solution id="eip-id1171951666586"><para id="eip-id1171960082005">100</para></solution>
+      </exercise>
+      <exercise id="id1165821851354">
+        <problem id="oo-id1165820446594">
+          <para id="id1165820181710">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>1</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( lline -1 rline - lline 1 rline  right ) rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math></para>
+        </problem>
+      </exercise>
+      <exercise id="id1165822676835">
+        <problem id="oo-id1165828514280">
+          <para id="id1165821366093">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>4</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">+</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>6</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( lline 4 rline + lline -6 rline  right ) rSup { size 8{2} } - left ( lline -2 rline  right ) rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math>  </para>
+        </problem>
+<solution id="eip-id1171958347616"><para id="eip-id1171956916092"> 92</para></solution>
+      </exercise>
+      <exercise id="id3012089">
+        <problem id="oo-id6821889">
+          <para id="id1165820248727"><m:math>
+<m:mo>-</m:mo>
+<m:msup>
+<m:mrow>
+<m:mfenced open="[" close="]">
+<m:mrow>
+<m:mfenced open="|" close="|">
+<m:mrow>
+<m:mo>-</m:mo>
+<m:mn>10</m:mn>
+</m:mrow>
+</m:mfenced>
+<m:mo>-</m:mo>
+<m:mn>6</m:mn>
+
+</m:mrow>
+</m:mfenced>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math></para>
+        </problem>
+      </exercise>
+      <exercise id="id1165821661679">
+        <problem id="oo-id1165839020566">
+          <para id="id5542090">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:msup><m:mrow><m:mo stretchy="true">{</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:msup><m:mfenced open="[" close="]"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow><m:mo stretchy="false">+</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="true">}</m:mo></m:mrow></m:mrow><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{- left lbrace  left none - left [- lline -4 rline + lline -3 rline  right ] rSup { size 8{3} }  right rbrace  right none  rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></para>
+        </problem>
+<solution id="eip-id6048601"><para id="eip-id1171957418249">-1</para></solution>
+      </exercise>
+      <exercise id="id1165822684191">
+        <problem id="oo-id7668622">
+          <para id="id1165822184573">A Mission Control Officer at Cape Canaveral makes the statement “lift-off, <emphasis effect="italics">T </emphasis>minus 50 seconds.” How long is it before lift-off?</para>
+        </problem>
+      </exercise>
+      <exercise id="id1165819535379">
+        <problem id="oo-id1165819656351">
+          <para id="id1165826565199">Due to a slowdown in the industry, a Silicon Valley computer company finds itself in debt $2,400,000. Use absolute value notation to describe this company’s debt. 
+</para>
+        </problem>
+<solution id="eip-id1171949246931"><para id="eip-id1171947049420"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>$</m:mi></m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2,</m:mn></m:mrow><m:mtext>400</m:mtext><m:mi>,</m:mi><m:mtext>000</m:mtext></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{-$ lline -2,"400","000" rline } {}</m:annotation></m:semantics></m:math></para></solution>
+      </exercise>
+      <exercise id="id1165839333949">
+        <problem id="oo-id1165826923925">
+          <para id="id1165820469438">A particular machine is set correctly if upon action its meter reads 0. One particular machine has a meter reading of <m:math>
+<m:mo>-</m:mo>
+<m:mn>1.6</m:mn>
+</m:math> upon action. How far is this machine off its correct setting? </para>
+        </problem>
+      </exercise>
+      <section id="id1165820402799">
+        <title>Exercises for Review</title>
+        <exercise id="id1165821048807">
+          <problem id="oo-id1165819761127">
+            <para id="id1165834273053">(<link document="m34935"/>) Find the sum: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>9</m:mn><m:mtext>70</m:mtext></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>5</m:mn><m:mtext>21</m:mtext></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>8</m:mn><m:mtext>15</m:mtext></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {9}  over  {"70"} } + {  {5}  over  {"21"} } + {  {8}  over  {"15"} } } {}</m:annotation></m:semantics></m:math>. 
+</para>
+          </problem>
+<solution id="eip-id1171950986814"><para id="eip-id1171949377536"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>9</m:mn><m:mtext>10</m:mtext></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {9}  over  {"10"} } } {}</m:annotation></m:semantics></m:math></para></solution>
+        </exercise>
+        <exercise id="id2908997">
+          <problem id="oo-id1165827423054">
+            <para id="id1976150">(<link document="m34941"/>) Find the value of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mfrac><m:mn>3</m:mn><m:mtext>10</m:mtext></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>4</m:mn><m:mtext>12</m:mtext></m:mfrac></m:mrow><m:mfrac><m:mtext>19</m:mtext><m:mtext>20</m:mtext></m:mfrac></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { {  {3}  over  {"10"} } + {  {4}  over  {"12"} } }  over  { {  {"19"}  over  {"20"} } } } } {}</m:annotation></m:semantics></m:math>.</para>
+          </problem>
+        </exercise>
+        <exercise id="id1165820079731">
+          <problem id="oo-id1165828599248">
+            <para id="id1165822177439">(<link document="m34958"/>) Convert 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mn>2</m:mn><m:mfrac><m:mn>3</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." 2 {  {3}  over  {5} } } {}</m:annotation></m:semantics></m:math> to a fraction. 
+</para>
+          </problem>
+<solution id="eip-id6316968"><para id="eip-id7477282"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>3</m:mn><m:mfrac><m:mtext>13</m:mtext><m:mtext>50</m:mtext></m:mfrac><m:mtext> or </m:mtext><m:mfrac><m:mtext>163</m:mtext><m:mtext>50</m:mtext></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 {  {"13"}  over  {"50"} } " or " {  {"163"}  over  {"50"} } } {}</m:annotation></m:semantics></m:math></para></solution>
+        </exercise>
+        <exercise id="id1165826661021">
+          <problem id="oo-id1165827051426">
+            <para id="id1165831165538">(<link document="m34981"/>) The ratio of acid to water in a solution is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {3}  over  {8} } } {}</m:annotation></m:semantics></m:math>. How many mL of acid are there in a solution that contain 112 mL of water?</para>
+          </problem>
+        </exercise>
+        <exercise id="id1471039">
+          <problem id="oo-id1165828533000">
+            <para id="id1165825644498">(<link document="m35029"/>) Find the value of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>6</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>8</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{-6- \( -8 \) } {}</m:annotation></m:semantics></m:math>.</para>
+          </problem>
+<solution id="eip-id1171957799618"><para id="eip-id1171947176936"> 2</para></solution>
+        </exercise>
+      </section>
+    </section>
+  </content>
+</document>

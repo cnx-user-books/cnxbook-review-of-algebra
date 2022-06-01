@@ -1,0 +1,180 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml"><title>Arithmetic Review: Factors, Products, and Exponents</title><metadata>
+  <md:content-id>m18882</md:content-id><md:title>Arithmetic Review: Factors, Products, and Exponents</md:title>
+  <md:abstract>This module is from Elementary Algebra by Denny Burzynski and Wade Ellis, Jr.
+This chapter contains many examples of arithmetic techniques that are used directly or indirectly in algebra. Since the chapter is intended as a review, the problem-solving techniques are presented without being developed. Therefore, no work space is provided, nor does the chapter contain all of the pedagogical features of the text. As a review, this chapter can be assigned at the discretion of the instructor and can also be a valuable reference tool for the student.</md:abstract>
+  <md:uuid>4f96b75e-6310-4a45-9895-0c3d26da020e</md:uuid>
+</metadata>
+
+<content><section id="fs-id17292448">      <title>Overview</title>      <list id="fs-id17615492" list-type="bulleted">        <item>          Factors        </item>        <item>          Exponential Notation        </item>      </list>    </section><section id="fs-id17545530">      <title>Factors</title><para id="fs-id13377223">Let’s begin our review of arithmetic by recalling the meaning of multiplication for whole numbers (the counting numbers and zero).</para><para id="fs-id17589065" class="highlight"><title>Multiplication</title><term>Multiplication</term> is a description of repeated addition.</para><para id="fs-id17497038">In the addition<newline/><newline/><m:math> <m:semantics>  <m:mrow>   <m:mn>7</m:mn><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>+</m:mo><m:mn>7</m:mn>  </m:mrow>   </m:semantics></m:math><newline/><newline/>the number 7 is repeated as an <emphasis>addend*</emphasis> 4 <emphasis>times.</emphasis> Therefore, we say we have <emphasis>four times seven</emphasis> and describe it by writing<newline/><newline/><m:math> <m:semantics>  <m:mrow>   <m:mn>4</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>7</m:mn>  </m:mrow>   </m:semantics></m:math><newline/><newline/>The raised dot between the numbers 4 and 7 indicates multiplication. The dot directs us to multiply the two numbers that it separates. In algebra, the dot is preferred over the symbol <m:math> <m:semantics>  <m:mo>×</m:mo>   </m:semantics></m:math> to denote multiplication because the letter <m:math> <m:semantics>  <m:mi>x</m:mi>   </m:semantics></m:math> is often used to represent a number. Thus,<newline/><newline/><m:math> <m:semantics>  <m:mrow>   <m:mn>4</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>7</m:mn><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>+</m:mo><m:mn>7</m:mn>  </m:mrow>   </m:semantics></m:math></para><para id="fs-id17707974"><title>Factors and Products</title>In a multiplication, the numbers being multiplied are called <emphasis>factors.</emphasis> The result of a multiplication is called the <emphasis>product.</emphasis> For example, in the multiplication<newline/><newline/><m:math> <m:semantics>  <m:mrow>   <m:mn>4</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>28</m:mn>  </m:mrow>   </m:semantics></m:math><newline/><newline/>the numbers 4 and 7 are factors, and the number 28 is the product. We say that 4 and 7 are factors of 28. (They are not the only factors of 28. Can you think of others?)<newline/><newline/>Now we know that<newline/><newline/><m:math> <m:semantics>  <m:mrow>   <m:mtable>    <m:mtr>     <m:mtd>      <m:mrow>       <m:mrow><m:mo>(</m:mo>        <m:mrow>         <m:mtext>factor</m:mtext>        </m:mrow>       <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>        <m:mrow>         <m:mtext>factor</m:mtext>        </m:mrow>       <m:mo>)</m:mo></m:mrow>      </m:mrow>     </m:mtd>     <m:mtd>      <m:mo>=</m:mo>     </m:mtd>     <m:mtd>      <m:mrow>       <m:mtext>product</m:mtext>      </m:mrow>     </m:mtd>    </m:mtr>       </m:mtable>  </m:mrow>   </m:semantics></m:math><newline/><newline/>This indicates that a first number is a factor of a second number if the first number divides into the second number with no remainder. For example, since<newline/><newline/><m:math> <m:semantics>  <m:mrow>   <m:mn>4</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>28</m:mn>  </m:mrow>   </m:semantics></m:math><newline/><newline/>both 4 and 7 are factors of 28 since both 4 and 7 divide into 28 with no remainder.</para></section><section id="fs-id17549680">      <title>Exponential Notation</title>	  <para id="fs-id17654870">Quite often, a particular number will be repeated as a factor in a multiplication. For example, in the multiplication<newline/><newline/><m:math> <m:semantics>  <m:mrow>   <m:mn>7</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>7</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>7</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>7</m:mn>  </m:mrow>   </m:semantics></m:math><newline/><newline/>the number 7 is repeated as a factor 4 times. We describe this by writing <m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mn>7</m:mn>    <m:mn>4</m:mn>   </m:msup>   <m:mo>.</m:mo>  </m:mrow>   </m:semantics></m:math> Thus,<newline/><newline/><m:math> <m:semantics>  <m:mrow>   <m:mn>7</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>7</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>7</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>7</m:mn><m:mo>=</m:mo><m:msup>    <m:mn>7</m:mn>    <m:mn>4</m:mn>   </m:msup>     </m:mrow>   </m:semantics></m:math><newline/><newline/>The repeated factor is the lower number (the base), and the number recording how many times the factor is repeated is the higher number (the superscript). The superscript number is called an <emphasis>exponent.</emphasis></para><para id="fs-id17747045" class="highlight"><title>Exponent</title>An <term>exponent</term> is a number that records how many times the number to which it is attached occurs as a factor in a multiplication.</para></section><section id="fs-id17703398"><title>Sample Set A</title><para id="fs-id17732855">For Examples 1, 2, and 3, express each product using exponents.</para><example id="fs-id17396631"><para id="fs-id17396632"><m:math> <m:semantics>  <m:mrow>   <m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3.</m:mn>  </m:mrow>   </m:semantics></m:math>  Since 3 occurs as a factor 6 times,<newline/><newline/><m:math> <m:semantics>  <m:mrow>   <m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mo>=</m:mo><m:msup>    <m:mn>3</m:mn>    <m:mn>6</m:mn>   </m:msup>     </m:mrow>  </m:semantics></m:math></para></example><example id="fs-id11708326"><para id="fs-id11708327"><m:math> <m:semantics>  <m:mrow>   <m:mn>8</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>8.</m:mn>  </m:mrow>   </m:semantics></m:math>  Since 8 occurs as a factor 2 times,<newline/><newline/><m:math> <m:semantics>  <m:mrow>   <m:mn>8</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>8</m:mn><m:mo>=</m:mo><m:msup>    <m:mn>8</m:mn>    <m:mn>2</m:mn>   </m:msup>     </m:mrow>   </m:semantics></m:math></para></example><example id="fs-id14860241"><para id="fs-id14860242"><m:math> <m:semantics>  <m:mrow>   <m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>9</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>9.</m:mn>  </m:mrow>   </m:semantics></m:math>  Since 5 occurs as a factor 3 times, we have <m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mn>5</m:mn>    <m:mn>3</m:mn>   </m:msup>   <m:mo>.</m:mo>  </m:mrow>   </m:semantics></m:math> Since 9 occurs as a factor 2 times, we have <m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mn>9</m:mn>    <m:mn>2</m:mn>   </m:msup>   <m:mo>.</m:mo>  </m:mrow>   </m:semantics></m:math> We should see the following replacements.<newline/><newline/><m:math> <m:semantics>  <m:mrow>   <m:munder>    <m:munder>     <m:mrow>      <m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn>     </m:mrow>     <m:mo stretchy="true">︸</m:mo>    </m:munder>    <m:mrow>     <m:msup>      <m:mn>5</m:mn>      <m:mn>3</m:mn>     </m:msup>         </m:mrow>   </m:munder>   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:munder>    <m:munder>     <m:mrow>      <m:mn>9</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>9</m:mn>     </m:mrow>     <m:mo stretchy="true">︸</m:mo>    </m:munder>    <m:mrow>     <m:msup>      <m:mn>9</m:mn>      <m:mn>2</m:mn>     </m:msup>         </m:mrow>   </m:munder>     </m:mrow>   </m:semantics></m:math><newline/>Then we have<newline/><newline/><m:math> <m:semantics>  <m:mrow>   <m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>9</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>9</m:mn><m:mo>=</m:mo><m:msup>    <m:mn>5</m:mn>    <m:mn>3</m:mn>   </m:msup>   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:msup>    <m:mn>9</m:mn>    <m:mn>2</m:mn>   </m:msup>     </m:mrow>   </m:semantics></m:math></para></example><example id="fs-id17587841"><para id="fs-id17587842">Expand <m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mn>3</m:mn>    <m:mn>5</m:mn>   </m:msup>   <m:mo>.</m:mo>  </m:mrow>   </m:semantics></m:math>  The base is 3 so it is the repeated factor. The exponent is 5 and it records the number of times the base 3 is repeated. Thus, 3 is to be repeated as a factor 5 times.<newline/><newline/><m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mn>3</m:mn>    <m:mn>5</m:mn>   </m:msup>   <m:mo>=</m:mo><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn>  </m:mrow>   </m:semantics></m:math></para></example><example id="fs-id16040512"><para id="fs-id16040513">Expand <m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mn>6</m:mn>    <m:mn>2</m:mn>   </m:msup>   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:msup>    <m:mrow>     <m:mn>10</m:mn>    </m:mrow>    <m:mn>4</m:mn>   </m:msup>   <m:mo>.</m:mo>  </m:mrow>   </m:semantics></m:math>  The notation <m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mn>6</m:mn>    <m:mn>2</m:mn>   </m:msup>   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:msup>    <m:mrow>     <m:mn>10</m:mn>    </m:mrow>    <m:mn>4</m:mn>   </m:msup>     </m:mrow>   </m:semantics></m:math> records the following two facts: 6 is to be repeated as a factor 2 times and 10 is to be repeated as a factor 4 times. Thus,<newline/><newline/><m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mn>6</m:mn>    <m:mn>2</m:mn>   </m:msup>   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:msup>    <m:mrow>     <m:mn>10</m:mn>    </m:mrow>    <m:mn>4</m:mn>   </m:msup>   <m:mo>=</m:mo><m:mn>6</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>6</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>10</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>10</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>10</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>10</m:mn>  </m:mrow>   </m:semantics></m:math></para></example></section><section id="fs-id15981846" class="homework"><title>Exercises</title><para id="fs-id6336892">For the following problems, express each product using exponents.</para><exercise id="fs-id17723236"><problem id="fs-id17723237"><para id="fs-id17723238"><m:math> <m:semantics>  <m:mrow>   <m:mn>8</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>8</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>8</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id1165496525847"><para id="zip-id1165496525848"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mn>8</m:mn>
+    <m:mn>3</m:mn>
+   </m:msup>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id15934338"><problem id="fs-id15934339"><para id="fs-id15934340"><m:math> <m:semantics>  <m:mrow>   <m:mn>12</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>12</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>12</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>12</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>12</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id4346566"><problem id="fs-id4346567"><para id="fs-id4346568"><m:math> <m:semantics>  <m:mrow>   <m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id1165496527062"><para id="zip-id1165496527063"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mn>5</m:mn>
+    <m:mn>7</m:mn>
+   </m:msup>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id15960280"><problem id="fs-id15960281"><para id="fs-id15960282"><m:math> <m:semantics>  <m:mrow>   <m:mn>1</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>1</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id16044278"><problem id="fs-id16044279"><para id="fs-id16044280"><m:math> <m:semantics>  <m:mrow>   <m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>4</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>4</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id1165496528098"><para id="zip-id1165496528099"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mn>3</m:mn>
+    <m:mn>5</m:mn>
+   </m:msup>
+   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:msup>
+    <m:mn>4</m:mn>
+    <m:mn>2</m:mn>
+   </m:msup>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id17604550"><problem id="fs-id5094133"><para id="fs-id5094134"><m:math> <m:semantics>  <m:mrow>   <m:mn>8</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>8</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>8</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>15</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>15</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>15</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>15</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id17697853"><problem id="fs-id17697854"><para id="fs-id17697855"><m:math> <m:semantics>  <m:mrow>   <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>9</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>9</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>9</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>9</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>9</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>9</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>9</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>9</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id1165496529890"><para id="zip-id1165496529920"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mn>2</m:mn>
+    <m:mn>3</m:mn>
+   </m:msup>
+   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:msup>
+    <m:mn>9</m:mn>
+    <m:mn>8</m:mn>
+   </m:msup>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id15990410"><problem id="fs-id15990412"><para id="fs-id15990413"><m:math> <m:semantics>  <m:mrow>   <m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>10</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>10</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>10</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id15999769"><problem id="fs-id15999770"><para id="fs-id15999772">Suppose that the letters <m:math> <m:semantics>  <m:mi>x</m:mi>   </m:semantics></m:math> and <m:math> <m:semantics>  <m:mi>y</m:mi>   </m:semantics></m:math> are each used to represent numbers. Use exponents to express the following product.<newline/><newline/><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mi>y</m:mi><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mi>y</m:mi>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id1165496531315"><para id="zip-id1165496531319"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>3</m:mn>
+   </m:msup>
+   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:msup>
+    <m:mi>y</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id17683298"><problem id="fs-id17683299"><para id="fs-id17683300">Suppose that the letters <m:math> <m:semantics>  <m:mi>x</m:mi>   </m:semantics></m:math> and <m:math> <m:semantics>  <m:mi>y</m:mi>   </m:semantics></m:math> are each used to represent numbers. Use exponents to express the following product.<newline/><newline/><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mi>y</m:mi><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mi>y</m:mi><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mi>y</m:mi>  </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><para id="fs-id14484003">For the following problems, expand each product (do not compute the actual value).</para><exercise id="fs-id17691658"><problem id="fs-id17691659"><para id="fs-id17691660"><m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mn>3</m:mn>    <m:mn>4</m:mn>   </m:msup>     </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id1165496532744"><para id="zip-id1165496532748"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id15992267"><problem id="fs-id15992268"><para id="fs-id15992269"><m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mn>4</m:mn>    <m:mn>3</m:mn>   </m:msup>     </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id15974115"><problem id="fs-id17743170"><para id="fs-id17743171"><m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mn>2</m:mn>    <m:mn>5</m:mn>   </m:msup>     </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id1165496647023"><para id="zip-id1165496647053"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id17650976"><problem id="fs-id17650977"><para id="fs-id17650978"><m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mn>9</m:mn>    <m:mn>6</m:mn>   </m:msup>     </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id17744013"><problem id="fs-id17744014"><para id="fs-id17744015"><m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mn>5</m:mn>    <m:mn>3</m:mn>   </m:msup>   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:msup>    <m:mn>6</m:mn>    <m:mn>2</m:mn>   </m:msup>     </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id1165496620812"><para id="zip-id1165496620813"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>6</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>6</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id17696524"><problem id="fs-id17696525"><para id="fs-id17696526"><m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mn>2</m:mn>    <m:mn>7</m:mn>   </m:msup>   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:msup>    <m:mn>3</m:mn>    <m:mn>4</m:mn>   </m:msup>     </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id15972519"><problem id="fs-id15972520"><para id="fs-id15972521"><m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mi>x</m:mi>    <m:mn>4</m:mn>   </m:msup>   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:msup>    <m:mi>y</m:mi>    <m:mn>4</m:mn>   </m:msup>     </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id1165496621956"><para id="zip-id1165496621957"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mi>y</m:mi><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mi>y</m:mi><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mi>y</m:mi><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mi>y</m:mi>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id16003279"><problem id="fs-id16003280"><para id="fs-id17654573"><m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mi>x</m:mi>    <m:mn>6</m:mn>   </m:msup>   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:msup>    <m:mi>y</m:mi>    <m:mn>2</m:mn>   </m:msup>     </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><para id="fs-id15953732">For the following problems, specify all the whole number factors of each number. For example, the complete set of whole number factors of 6 is 1, 2, 3, 6.</para><exercise id="fs-id17723551"><problem id="fs-id17723552"><para id="fs-id17723553">20</para>
+</problem><solution id="zip-id1165496623069"><para id="zip-id1165496623099"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>4</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>10</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>20</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id16029480"><problem id="fs-id16029481"><para id="fs-id16029482">14</para>
+</problem></exercise><exercise id="fs-id16029485"><problem id="fs-id16029486"><para id="fs-id16029487">12</para>
+</problem><solution id="zip-id1165496623672"><para id="zip-id1165496623676"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>4</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>6</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>12</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id16029490"><problem id="fs-id16029492"><para id="fs-id13392518">30</para>
+</problem></exercise><exercise id="fs-id13392521"><problem id="fs-id13392522"><para id="fs-id13392523">21</para>
+</problem><solution id="zip-id1165496624248"><para id="zip-id1165496624278"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>7</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>21</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id13392526"><problem id="fs-id13392527"><para id="fs-id13392528">45</para>
+</problem></exercise><exercise id="fs-id16001936"><problem id="fs-id16001937"><para id="fs-id16001938">11</para>
+</problem><solution id="zip-id1165496624744"><para id="zip-id1165496624748"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>11</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id16001942"><problem id="fs-id16001943"><para id="fs-id16001944">17</para>
+</problem></exercise><exercise id="fs-id16001947"><problem id="fs-id15996081"><para id="fs-id15996082">19</para>
+</problem><solution id="zip-id1165496625106"><para id="zip-id1165496625136"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>19</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id15996086"><problem id="fs-id15996087"><para id="fs-id15996088">2</para>
+</problem></exercise></section>  </content></document>

@@ -1,0 +1,199 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml"><title>Arithmetic Review: Equivalent Fractions</title><metadata>
+  <md:content-id>m21861</md:content-id><md:title>Arithmetic Review: Equivalent Fractions</md:title>
+  <md:abstract>This module is from Elementary Algebra by Denny Burzynski and Wade Ellis, Jr.
+This chapter contains many examples of arithmetic techniques that are used directly or indirectly in algebra. Since the chapter is intended as a review, the problem-solving techniques are presented without being developed. Therefore, no work space is provided, nor does the chapter contain all of the pedagogical features of the text. As a review, this chapter can be assigned at the discretion of the instructor and can also be a valuable reference tool for the student.</md:abstract>
+  <md:uuid>10158a54-1bcf-4312-be5c-23513833cea7</md:uuid>
+</metadata>
+
+<content><section id="fs-id10584589">      <title>Overview</title>      <list id="fs-id10603664" list-type="bulleted">        <item>          Equivalent Fractions        </item>        <item>          Reducing Fractions To Lowest Terms        </item>		<item>          Raising Fractions To Higher Terms        </item>		      </list>    </section><section id="fs-id8556577">      <title>Equivalent Fractions</title><para id="fs-id8531454" class="highlight"><title>Equivalent Fractions</title>Fractions that have the same value are called <term>equivalent fractions.</term></para><para id="fs-id8532091">For example, <m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mn>2</m:mn>    <m:mn>3</m:mn>   </m:mfrac>     </m:mrow>   </m:semantics></m:math> and <m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mn>4</m:mn>    <m:mn>6</m:mn>   </m:mfrac>     </m:mrow>   </m:semantics></m:math> represent the same part of a whole quantity and are therefore equivalent. Several more collections of equivalent fractions are listed below.</para><example id="fs-id8548608"><para id="fs-id8543920"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>15</m:mn>    </m:mrow>    <m:mrow>     <m:mn>25</m:mn>    </m:mrow>   </m:mfrac>   <m:mo>,</m:mo><m:mfrac>    <m:mrow>     <m:mn>12</m:mn>    </m:mrow>    <m:mrow>     <m:mn>20</m:mn>    </m:mrow>   </m:mfrac>   <m:mo>,</m:mo><m:mfrac>    <m:mn>3</m:mn>    <m:mn>5</m:mn>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para></example><example id="fs-id10078116"><para id="fs-id10834629"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mn>1</m:mn>    <m:mn>3</m:mn>   </m:mfrac>   <m:mo>,</m:mo><m:mfrac>    <m:mn>2</m:mn>    <m:mn>6</m:mn>   </m:mfrac>   <m:mo>,</m:mo><m:mfrac>    <m:mn>3</m:mn>    <m:mn>9</m:mn>   </m:mfrac>   <m:mo>,</m:mo><m:mfrac>    <m:mn>4</m:mn>    <m:mrow>     <m:mn>12</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para></example><example id="fs-id10623774"><para id="fs-id10458853"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mn>7</m:mn>    <m:mn>6</m:mn>   </m:mfrac>   <m:mo>,</m:mo><m:mfrac>    <m:mrow>     <m:mn>14</m:mn>    </m:mrow>    <m:mrow>     <m:mn>12</m:mn>    </m:mrow>   </m:mfrac>   <m:mo>,</m:mo><m:mfrac>    <m:mrow>     <m:mn>21</m:mn>    </m:mrow>    <m:mrow>     <m:mn>18</m:mn>    </m:mrow>   </m:mfrac>   <m:mo>,</m:mo><m:mfrac>    <m:mrow>     <m:mn>28</m:mn>    </m:mrow>    <m:mrow>     <m:mn>24</m:mn>    </m:mrow>   </m:mfrac>   <m:mo>,</m:mo><m:mfrac>    <m:mrow>     <m:mn>35</m:mn>    </m:mrow>    <m:mrow>     <m:mn>30</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para></example></section><section id="fs-id7406200">      <title>Reducing Fractions To Lowest Terms</title>	  <para id="fs-id10565577"><title>Reduced to Lowest Terms</title>It is often useful to convert one fraction to an equivalent fraction that has reduced values in the numerator and denominator. When a fraction is converted to an equivalent fraction that has the smallest numerator and denominator in the collection of equivalent fractions, it is said to be <term>reduced to lowest terms.</term> The conversion process is called <term>reducing a fraction.</term></para><para id="fs-id10588328">We can reduce a fraction to lowest terms by<list id="fs-id10816626" list-type="enumerated" number-style="arabic" class="highlight"><item>Expressing the numerator and denominator as a product of prime numbers. (Find the prime factorization of the numerator and denominator. See Section (<link document="m21868"/>) for this technique.)</item><item>Divide the numerator and denominator by all common factors. (This technique is commonly called “cancelling.”)</item></list></para></section><section id="fs-id9538940"><title>Sample Set A</title><para id="fs-id6570580">Reduce each fraction to lowest terms.</para><example id="fs-id10402284"><para id="fs-id10402285"><m:math display="block"> <m:semantics>  <m:mrow>   <m:mtable columnalign="left">    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow>       <m:mfrac>        <m:mn>6</m:mn>        <m:mrow>         <m:mn>18</m:mn>        </m:mrow>       </m:mfrac>             </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mfrac>        <m:mrow>         <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn>        </m:mrow>        <m:mrow>         <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn>        </m:mrow>       </m:mfrac>             </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>    </m:mtr>    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mfrac>        <m:mrow>         <m:menclose notation="updiagonalstrike">          <m:mn>2</m:mn>         </m:menclose>         <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:menclose notation="updiagonalstrike">          <m:mn>3</m:mn>         </m:menclose>                 </m:mrow>        <m:mrow>         <m:menclose notation="updiagonalstrike">          <m:mn>2</m:mn>         </m:menclose>         <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:menclose notation="updiagonalstrike">          <m:mn>3</m:mn>         </m:menclose>         <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn>        </m:mrow>       </m:mfrac>             </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mtext>2 and 3 are common factors</m:mtext><m:mo>.</m:mo>      </m:mrow>     </m:mtd>    </m:mtr>    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mfrac>        <m:mn>1</m:mn>        <m:mn>3</m:mn>       </m:mfrac>             </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>    </m:mtr>       </m:mtable>  </m:mrow>   </m:semantics></m:math></para></example><example id="fs-id11152461"><para id="fs-id8932971"><m:math display="block"> <m:semantics>  <m:mrow>   <m:mtable columnalign="left">    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow>       <m:mfrac>        <m:mrow>         <m:mn>16</m:mn>        </m:mrow>        <m:mrow>         <m:mn>20</m:mn>        </m:mrow>       </m:mfrac>             </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mfrac>        <m:mrow>         <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn>        </m:mrow>        <m:mrow>         <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn>        </m:mrow>       </m:mfrac>             </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>    </m:mtr>    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mfrac>        <m:mrow>         <m:menclose notation="updiagonalstrike">          <m:mn>2</m:mn>         </m:menclose>         <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:menclose notation="updiagonalstrike">          <m:mn>2</m:mn>         </m:menclose>         <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn>        </m:mrow>        <m:mrow>         <m:menclose notation="updiagonalstrike">          <m:mn>2</m:mn>         </m:menclose>         <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:menclose notation="updiagonalstrike">          <m:mn>2</m:mn>         </m:menclose>         <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn>        </m:mrow>       </m:mfrac>             </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mtext>2 is the only common factor</m:mtext><m:mtext>.</m:mtext>      </m:mrow>     </m:mtd>    </m:mtr>    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mfrac>        <m:mn>4</m:mn>        <m:mn>5</m:mn>       </m:mfrac>             </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>    </m:mtr>       </m:mtable>  </m:mrow>   </m:semantics></m:math></para></example><example id="fs-id9524695"><para id="fs-id6930375"><m:math display="block"> <m:semantics>  <m:mrow>   <m:mtable columnalign="left">    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow>       <m:mfrac>        <m:mrow>         <m:mn>56</m:mn>        </m:mrow>        <m:mrow>         <m:mn>70</m:mn>        </m:mrow>       </m:mfrac>             </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mfrac>        <m:mrow>         <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>4</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>7</m:mn>        </m:mrow>        <m:mrow>         <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>7</m:mn>        </m:mrow>       </m:mfrac>             </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>    </m:mtr>    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mfrac>        <m:mrow>         <m:menclose notation="updiagonalstrike">          <m:mn>2</m:mn>         </m:menclose>         <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>4</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:menclose notation="updiagonalstrike">          <m:mn>7</m:mn>         </m:menclose>                 </m:mrow>        <m:mrow>         <m:menclose notation="updiagonalstrike">          <m:mn>2</m:mn>         </m:menclose>         <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:menclose notation="updiagonalstrike">          <m:mn>7</m:mn>         </m:menclose>                 </m:mrow>       </m:mfrac>             </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mtext>2 and 7 are common factors</m:mtext><m:mo>.</m:mo>      </m:mrow>     </m:mtd>    </m:mtr>    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mfrac>        <m:mn>4</m:mn>        <m:mn>5</m:mn>       </m:mfrac>             </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow/>     </m:mtd>    </m:mtr>       </m:mtable>  </m:mrow>   </m:semantics></m:math></para></example><example id="fs-id8550644"><para id="fs-id8550645"><m:math display="block"> <m:semantics>  <m:mtable columnalign="left">   <m:mtr>    <m:mtd>     <m:mtable columnalign="left">      <m:mtr columnalign="left">       <m:mtd columnalign="left">        <m:mrow>         <m:mfrac>          <m:mn>8</m:mn>          <m:mrow>           <m:mn>15</m:mn>          </m:mrow>         </m:mfrac>                 </m:mrow>       </m:mtd>       <m:mtd columnalign="left">        <m:mo>=</m:mo>       </m:mtd>       <m:mtd columnalign="left">        <m:mrow>         <m:mfrac>          <m:mrow>           <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn>          </m:mrow>          <m:mrow>           <m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn>          </m:mrow>         </m:mfrac>                 </m:mrow>       </m:mtd>       <m:mtd columnalign="left">        <m:mrow/>       </m:mtd>       <m:mtd columnalign="left">        <m:mrow>         <m:mtext>There are no common factors</m:mtext><m:mo>.</m:mo>        </m:mrow>       </m:mtd>      </m:mtr>           </m:mtable>    </m:mtd>   </m:mtr>   <m:mtr>    <m:mtd>     <m:mtext>Thus</m:mtext><m:mo>,</m:mo><m:mtext> </m:mtext><m:mfrac>      <m:mn>8</m:mn>      <m:mrow>       <m:mn>15</m:mn>      </m:mrow>     </m:mfrac>     <m:mtext> is reduced to lowest terms</m:mtext><m:mo>.</m:mo>    </m:mtd>   </m:mtr>  </m:mtable>     </m:semantics></m:math></para></example></section><section id="fs-id8538130">      <title>Raising a Fraction to Higher Terms</title>	  <para id="fs-id9746621">Equally important as reducing fractions is <term>raising fractions to higher terms.</term> Raising a fraction to higher terms is the process of constructing an equivalent fraction that has higher values in the numerator and denominator. The higher, equivalent fraction is constructed by multiplying the original fraction by 1.<newline/><newline/>Notice that <m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mn>3</m:mn>    <m:mn>5</m:mn>   </m:mfrac>     </m:mrow>   </m:semantics></m:math> and <m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mn>9</m:mn>    <m:mrow>     <m:mn>15</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math> are equivalent, that is <m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mn>3</m:mn>    <m:mn>5</m:mn>   </m:mfrac>   <m:mo>=</m:mo><m:mfrac>    <m:mn>9</m:mn>    <m:mrow>     <m:mn>15</m:mn>    </m:mrow>   </m:mfrac>   <m:mo>.</m:mo>  </m:mrow>   </m:semantics></m:math> Also,<newline/><newline/><media id="fs-id10377457" alt="The product of three over five and one is equal to the product of three over five and three over three. This is equal to the product of three and three over the product of five and three, that in turn is equal to nine over fifteen. There is an arrow pointing towards one and three over three, indicating that one and three over three are equal.">		<image mime-type="image/jpeg" src="../../media/C10_SAR-4_P10_003.jpg" print-width="1.75in"/>	</media><newline/><newline/>This observation helps us suggest the following method for raising a fraction to higher terms.</para><para id="fs-id8546711" class="highlight"><title>Raising a Fraction to Higher Terms</title>A fraction can be raised to higher terms by multiplying both the numerator and denominator by the same nonzero number.</para><para id="fs-id10352884">For example, <m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mn>3</m:mn>    <m:mn>4</m:mn>   </m:mfrac>     </m:mrow>   </m:semantics></m:math> can be raised to <m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>24</m:mn>    </m:mrow>    <m:mrow>     <m:mn>32</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math> by multiplying both the numerator and denominator by 8, that is, multiplying by 1 in the form <m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mn>8</m:mn>    <m:mn>8</m:mn>   </m:mfrac>   <m:mo>.</m:mo>  </m:mrow>   </m:semantics></m:math><newline/><newline/><m:math display="block"> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mn>3</m:mn>    <m:mn>4</m:mn>   </m:mfrac>   <m:mo>=</m:mo><m:mfrac>    <m:mrow>     <m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>8</m:mn>    </m:mrow>    <m:mrow>     <m:mn>4</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>8</m:mn>    </m:mrow>   </m:mfrac>   <m:mo>=</m:mo><m:mfrac>    <m:mrow>     <m:mn>24</m:mn>    </m:mrow>    <m:mrow>     <m:mn>32</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math><newline/><newline/>How did we know to choose 8 as the proper factor? Since we wish to convert 4 to 32 by multiplying it by some number, we know that 4 must be a factor of 32. This means that 4 divides into 32. In fact, <m:math> <m:semantics>  <m:mrow>   <m:mn>32</m:mn><m:mo>÷</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>8.</m:mn>  </m:mrow>   </m:semantics></m:math> We divided the original denominator into the new, specified denominator to obtain the proper factor for the multiplication.</para></section><section id="fs-id8527956"><title>Sample Set B</title><para id="fs-id8550832">Determine the missing numerator or denominator.</para><example id="fs-id8548760"><para id="fs-id8548761"><m:math> <m:semantics>  <m:mtable columnalign="left">   <m:mtr>    <m:mtd>     <m:mtable columnalign="left">      <m:mtr columnalign="left">       <m:mtd columnalign="left">        <m:mrow>         <m:mfrac>          <m:mn>3</m:mn>          <m:mn>7</m:mn>         </m:mfrac>                 </m:mrow>       </m:mtd>       <m:mtd columnalign="left">        <m:mo>=</m:mo>       </m:mtd>       <m:mtd columnalign="left">        <m:mrow>         <m:mfrac>          <m:mo>?</m:mo>          <m:mrow>           <m:mn>35</m:mn>          </m:mrow>         </m:mfrac>         <m:mo>.</m:mo>        </m:mrow>       </m:mtd>       <m:mtd columnalign="left">        <m:mrow/>       </m:mtd>       <m:mtd columnalign="left">        <m:mrow>         <m:mtext>Divide the original denominator</m:mtext><m:mo>,</m:mo><m:mtext> 7</m:mtext><m:mo>,</m:mo><m:mtext> into the new denominator</m:mtext><m:mo>,</m:mo>        </m:mrow>       </m:mtd>      </m:mtr>           </m:mtable><m:mtext> </m:mtext><m:mn>35.</m:mn><m:mtext> </m:mtext><m:mn>35</m:mn><m:mo>÷</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>5.</m:mn>    </m:mtd>   </m:mtr>   <m:mtr>    <m:mtd>     <m:mtext>Multiply the original numerator by 5</m:mtext><m:mo>.</m:mo>    </m:mtd>   </m:mtr>   <m:mtr>    <m:mtd>     <m:mtable columnalign="left">      <m:mtr columnalign="left">       <m:mtd columnalign="left">        <m:mrow>         <m:mfrac>          <m:mn>3</m:mn>          <m:mn>7</m:mn>         </m:mfrac>                 </m:mrow>       </m:mtd>       <m:mtd columnalign="left">        <m:mo>=</m:mo>       </m:mtd>       <m:mtd columnalign="left">        <m:mrow>         <m:mfrac>          <m:mrow>           <m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn>          </m:mrow>          <m:mrow>           <m:mn>7</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn>          </m:mrow>         </m:mfrac>                 </m:mrow>       </m:mtd>       <m:mtd columnalign="left">        <m:mo>=</m:mo>       </m:mtd>       <m:mtd columnalign="left">        <m:mrow>         <m:mfrac>          <m:mrow>           <m:mn>15</m:mn>          </m:mrow>          <m:mrow>           <m:mn>35</m:mn>          </m:mrow>         </m:mfrac>                 </m:mrow>       </m:mtd>      </m:mtr>           </m:mtable>    </m:mtd>   </m:mtr>  </m:mtable>     </m:semantics></m:math></para></example><example id="fs-id10370634"><para id="fs-id10370635"><m:math> <m:semantics>  <m:mtable columnalign="left">   <m:mtr>    <m:mtd>     <m:mtable columnalign="left">      <m:mtr columnalign="left">       <m:mtd columnalign="left">        <m:mrow>         <m:mfrac>          <m:mn>5</m:mn>          <m:mn>6</m:mn>         </m:mfrac>                 </m:mrow>       </m:mtd>       <m:mtd columnalign="left">        <m:mo>=</m:mo>       </m:mtd>       <m:mtd columnalign="left">        <m:mrow>         <m:mfrac>          <m:mrow>           <m:mn>45</m:mn>          </m:mrow>          <m:mo>?</m:mo>         </m:mfrac>         <m:mo>.</m:mo>        </m:mrow>       </m:mtd>       <m:mtd columnalign="left">        <m:mrow/>       </m:mtd>       <m:mtd columnalign="left">        <m:mrow>         <m:mtext>Divide the original numerator</m:mtext><m:mo>,</m:mo><m:mtext> 5</m:mtext><m:mo>,</m:mo><m:mtext> into the new numerator</m:mtext><m:mo>,</m:mo>        </m:mrow>       </m:mtd>      </m:mtr>           </m:mtable><m:mtext> </m:mtext><m:mn>45.</m:mn><m:mtext> </m:mtext><m:mn>45</m:mn><m:mo>÷</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>9.</m:mn>    </m:mtd>   </m:mtr>   <m:mtr>    <m:mtd>     <m:mtext>Multiply the original denominator by 9</m:mtext><m:mo>.</m:mo>    </m:mtd>   </m:mtr>   <m:mtr>    <m:mtd>     <m:mtable columnalign="left">      <m:mtr columnalign="left">       <m:mtd columnalign="left">        <m:mrow>         <m:mfrac>          <m:mn>5</m:mn>          <m:mn>6</m:mn>         </m:mfrac>                 </m:mrow>       </m:mtd>       <m:mtd columnalign="left">        <m:mo>=</m:mo>       </m:mtd>       <m:mtd columnalign="left">        <m:mrow>         <m:mfrac>          <m:mrow>           <m:mn>5</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>9</m:mn>          </m:mrow>          <m:mrow>           <m:mn>6</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>9</m:mn>          </m:mrow>         </m:mfrac>                 </m:mrow>       </m:mtd>       <m:mtd columnalign="left">        <m:mo>=</m:mo>       </m:mtd>       <m:mtd columnalign="left">        <m:mrow>         <m:mfrac>          <m:mrow>           <m:mn>45</m:mn>          </m:mrow>          <m:mrow>           <m:mn>54</m:mn>          </m:mrow>         </m:mfrac>                 </m:mrow>       </m:mtd>      </m:mtr>           </m:mtable>    </m:mtd>   </m:mtr>  </m:mtable>     </m:semantics></m:math></para></example></section>
+
+<section id="fs-id26402854" class="homework"><title>Exercises</title><para id="fs-id26402653">For the following problems, reduce, if possible, each fraction lowest terms.</para><exercise id="fs-id5872366"><problem id="fs-id5872367"><para id="fs-id25965468"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mn>6</m:mn>    <m:mn>8</m:mn>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id16472733"><para id="zip-id16472734"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>4</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id3312525"><problem id="fs-id3312526"><para id="fs-id26400721"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mn>5</m:mn>    <m:mrow>     <m:mn>10</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id26403395"><problem id="fs-id26402797"><para id="fs-id26402798"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mn>6</m:mn>    <m:mrow>     <m:mn>14</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id17003619"><para id="zip-id17003620"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>7</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id25851327"><problem id="fs-id25851328"><para id="fs-id25151986"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mn>4</m:mn>    <m:mrow>     <m:mn>14</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id26182358"><problem id="fs-id26401212"><para id="fs-id26401213"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>18</m:mn>    </m:mrow>    <m:mrow>     <m:mn>12</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id16854604"><para id="zip-id16854605"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id25640191"><problem id="fs-id25866034"><para id="fs-id25866035"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>20</m:mn>    </m:mrow>    <m:mn>8</m:mn>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id26402191"><problem id="fs-id26402192"><para id="fs-id27132004"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>10</m:mn>    </m:mrow>    <m:mn>6</m:mn>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id14124864"><para id="zip-id14124865"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>5</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id26402344"><problem id="fs-id26402239"><para id="fs-id26402240"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>14</m:mn>    </m:mrow>    <m:mn>4</m:mn>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id21698245"><problem id="fs-id21698246"><para id="fs-id24542931"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>10</m:mn>    </m:mrow>    <m:mrow>     <m:mn>12</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id16125600"><para id="zip-id16125601"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>5</m:mn>
+    <m:mn>6</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id5770773"><problem id="fs-id5770774"><para id="fs-id26400977"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>32</m:mn>    </m:mrow>    <m:mrow>     <m:mn>28</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id25802661"><problem id="fs-id25802662"><para id="fs-id24391601"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>36</m:mn>    </m:mrow>    <m:mrow>     <m:mn>10</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id15670135"><para id="zip-id15670136"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>18</m:mn>
+    </m:mrow>
+    <m:mn>5</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id25624117"><problem id="fs-id25624118"><para id="fs-id26400730"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>26</m:mn>    </m:mrow>    <m:mrow>     <m:mn>60</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id25670467"><problem id="fs-id25670468"><para id="fs-id25809350"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>12</m:mn>    </m:mrow>    <m:mrow>     <m:mn>18</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id15844945"><para id="zip-id15844946"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id26401832"><problem id="fs-id26401834"><para id="fs-id26402898"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>18</m:mn>    </m:mrow>    <m:mrow>     <m:mn>27</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id26015854"><problem id="fs-id26015855"><para id="fs-id25628039"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>18</m:mn>    </m:mrow>    <m:mrow>     <m:mn>24</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id15476844"><para id="zip-id15476845"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>4</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id26401369"><problem id="fs-id25735573"><para id="fs-id25735574"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>32</m:mn>    </m:mrow>    <m:mrow>     <m:mn>40</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id26403270"><problem id="fs-id27134721"><para id="fs-id27134722"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>11</m:mn>    </m:mrow>    <m:mrow>     <m:mn>22</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id15670295"><para id="zip-id15670296"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id21289542"><problem id="fs-id26403092"><para id="fs-id26403093"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>17</m:mn>    </m:mrow>    <m:mrow>     <m:mn>51</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id25637893"><problem id="fs-id26042126"><para id="fs-id26042127"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>27</m:mn>    </m:mrow>    <m:mrow>     <m:mn>81</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id16846785"><para id="zip-id16846786"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id25858532"><problem id="fs-id5770916"><para id="fs-id5770917"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>16</m:mn>    </m:mrow>    <m:mrow>     <m:mn>42</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id26402413"><problem id="fs-id26400724"><para id="fs-id26400725"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>39</m:mn>    </m:mrow>    <m:mrow>     <m:mn>13</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id15666388"><para id="zip-id15666389">3</para></solution></exercise><exercise id="fs-id26527823"><problem id="fs-id21690747"><para id="fs-id21690748"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>44</m:mn>    </m:mrow>    <m:mrow>     <m:mn>11</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id25868854"><problem id="fs-id26401048"><para id="fs-id26401050"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>121</m:mn>    </m:mrow>    <m:mrow>     <m:mn>132</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id16471365"><para id="zip-id16471366"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>11</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>12</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id26402046"><problem id="fs-id26400610"><para id="fs-id26400611"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>30</m:mn>    </m:mrow>    <m:mrow>     <m:mn>105</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id16708714"><problem id="fs-id21461042"><para id="fs-id21461043"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>108</m:mn>    </m:mrow>    <m:mrow>     <m:mn>76</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id16446161"><para id="zip-id16446162"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>27</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>19</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><para id="fs-id24516323">For the following problems, determine the missing numerator or denominator.</para><exercise id="fs-id26401873"><problem id="fs-id25670548"><para id="fs-id25670550"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mn>1</m:mn>    <m:mn>3</m:mn>   </m:mfrac>   <m:mo>=</m:mo><m:mfrac>    <m:mo>?</m:mo>    <m:mrow>     <m:mn>12</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id26401131"><problem id="fs-id19854773"><para id="fs-id19854774"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mn>1</m:mn>    <m:mn>5</m:mn>   </m:mfrac>   <m:mo>=</m:mo><m:mfrac>    <m:mo>?</m:mo>    <m:mrow>     <m:mn>30</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id16852621"><para id="zip-id15195896">6</para></solution></exercise><exercise id="fs-id26399022"><problem id="fs-id26399889"><para id="fs-id26399890"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mn>3</m:mn>    <m:mn>3</m:mn>   </m:mfrac>   <m:mo>=</m:mo><m:mfrac>    <m:mo>?</m:mo>    <m:mn>9</m:mn>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id3683976"><problem id="fs-id3683977"><para id="fs-id26460462"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mn>3</m:mn>    <m:mn>4</m:mn>   </m:mfrac>   <m:mo>=</m:mo><m:mfrac>    <m:mo>?</m:mo>    <m:mrow>     <m:mn>16</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id17735013"><para id="zip-id12274523">12</para></solution></exercise><exercise id="fs-id26400134"><problem id="fs-id26400135"><para id="fs-id26399563"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mn>5</m:mn>    <m:mn>6</m:mn>   </m:mfrac>   <m:mo>=</m:mo><m:mfrac>    <m:mo>?</m:mo>    <m:mrow>     <m:mn>18</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id26400392"><problem id="fs-id26400394"><para id="fs-id19867895"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mn>4</m:mn>    <m:mn>5</m:mn>   </m:mfrac>   <m:mo>=</m:mo><m:mfrac>    <m:mo>?</m:mo>    <m:mrow>     <m:mn>25</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id15877117"><para id="zip-id15877118">20</para></solution></exercise><exercise id="fs-id26400010"><problem id="fs-id26400012"><para id="fs-id5912645"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mn>1</m:mn>    <m:mn>2</m:mn>   </m:mfrac>   <m:mo>=</m:mo><m:mfrac>    <m:mn>4</m:mn>    <m:mo>?</m:mo>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id26556548"><problem id="fs-id26399754"><para id="fs-id26399755"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mn>9</m:mn>    <m:mrow>     <m:mn>25</m:mn>    </m:mrow>   </m:mfrac>   <m:mo>=</m:mo><m:mfrac>    <m:mrow>     <m:mn>27</m:mn>    </m:mrow>    <m:mo>?</m:mo>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id16841689"><para id="zip-id15753086">75</para></solution></exercise><exercise id="fs-id9709884"><problem id="fs-id9709885"><para id="fs-id26399449"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mn>3</m:mn>    <m:mn>2</m:mn>   </m:mfrac>   <m:mo>=</m:mo><m:mfrac>    <m:mrow>     <m:mn>18</m:mn>    </m:mrow>    <m:mo>?</m:mo>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id5831896"><problem id="fs-id5831898"><para id="fs-id25880796"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mn>5</m:mn>    <m:mn>3</m:mn>   </m:mfrac>   <m:mo>=</m:mo><m:mfrac>    <m:mrow>     <m:mn>80</m:mn>    </m:mrow>    <m:mo>?</m:mo>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id15664612"><para id="zip-id15664613">48</para></solution></exercise></section>  </content></document>

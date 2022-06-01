@@ -1,0 +1,1236 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Number Systems</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m36299</md:content-id>
+  <md:title>Number Systems</md:title>
+  <md:abstract>Worked examples for converting between binary, decimal and hexadecimal.</md:abstract>
+  <md:uuid>4e91266a-46d4-4d2c-a895-2f40cdfcf24b</md:uuid>
+</metadata>
+
+<content>
+    
+    
+    <section id="eip-276"><title>The Number Systems</title><para id="eip-71"><title>What are the different number systems?</title>We are all familiar with the decimal system. However, when working with computers, we need to start with the binary system. The reason for this is that computers use gates (or switches) which only have two states, on and off. This is what translates to the 1's and 0's of binary. From there, it is possible to build up to other more useful systems such as the decimal system or the hexadecimal system.</para>
+<para id="fs-id1171112631581">This module contains worked examples of how to convert between the decimal, hexadecimal and binary.</para></section>
+    <section id="eip-267"><title>Powers of 10 and 2</title><para id="eip-316">Before working through some examples, it will be useful to review how we use the decimal system. The decimal system can express any real rational number using the digits 0-9 and a minus sign. The places of the digits represent the power of ten that is being used. For example:</para><equation id="eip-625"><m:math display="display">
+  <m:apply>
+    <m:eq/>
+    <m:cn>321</m:cn>
+    <m:apply>
+      <m:plus/>
+      <m:apply>
+        <m:times/>
+        <m:cn>3</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>10</m:cn>
+          <m:cn>2</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:apply>
+        <m:times/>
+        <m:cn>2</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>10</m:cn>
+          <m:cn>1</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:apply>
+        <m:times/>
+        <m:cn>1</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>10</m:cn>
+          <m:cn>0</m:cn>
+        </m:apply>
+      </m:apply>
+    </m:apply>
+  </m:apply>
+</m:math></equation><equation id="eip-871"><m:math display="display">
+  <m:apply>
+    <m:eq/>
+    <m:cn>5023</m:cn>
+    <m:apply>
+      <m:plus/>
+      <m:apply>
+        <m:times/>
+        <m:cn>5</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>10</m:cn>
+          <m:cn>3</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:apply>
+        <m:times/>
+        <m:cn>0</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>10</m:cn>
+          <m:cn>2</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:apply>
+        <m:times/>
+        <m:cn>2</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>10</m:cn>
+          <m:cn>1</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:apply>
+        <m:times/>
+        <m:cn>3</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>10</m:cn>
+          <m:cn>0</m:cn>
+        </m:apply>
+      </m:apply>
+    </m:apply>
+  </m:apply>
+</m:math></equation><para id="eip-326">In the same way, binary systems use 1's and 0's to express a number:</para><equation id="eip-863"><m:math display="display">
+  <m:apply>
+    <m:eq/>
+    <m:cn>23</m:cn>
+    <m:cn>10111 (binary)</m:cn>
+    <m:apply>
+      <m:plus/>
+      <m:apply>
+        <m:times/>
+        <m:cn>1</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>2</m:cn>
+          <m:cn>4</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:apply>
+        <m:times/>
+        <m:cn>0</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>2</m:cn>
+          <m:cn>3</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:apply>
+        <m:times/>
+        <m:cn>1</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>2</m:cn>
+          <m:cn>2</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:apply>
+        <m:times/>
+        <m:cn>1</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>2</m:cn>
+          <m:cn>1</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:apply>
+        <m:times/>
+        <m:cn>1</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>2</m:cn>
+          <m:cn>0</m:cn>
+        </m:apply>
+      </m:apply>
+    </m:apply>
+  </m:apply>
+</m:math></equation></section><section id="cid2"><title>Binary - Unsigned</title><para id="eip-456">The following examples show how to convert between unsigned binary and decimal values.</para><exercise id="secfhsst_id135147"><problem id="imp-id1167655211419"><para id="id274010">  What is the decimal value of 10101 ? </para></problem>
+<solution id="imp-id8636174">
+    <list id="steplist" list-type="enumerated" number-style="arabic" class="stepwise"><item id="id274018">
+          <label>Know which system you are dealing with.</label>
+       
+      <para id="eip-id1165996367808">In this case, we are dealing with unsigned binary numbers. Our range of possible numbers are between 0 and <m:math display="display">
+  <m:apply>
+    <m:minus/>
+    <m:apply>
+      <m:power/>
+      <m:cn>2</m:cn>
+      <m:ci>N</m:ci>
+    </m:apply>
+    <m:cn>1</m:cn>
+  </m:apply>
+</m:math> .</para>
+      
+    </item>
+    <item>
+          <label>Write out the sum of each digit multiplied by its correct power of two depending on its position</label>
+      <equation id="eip-826"><m:math display="display">
+  <m:apply>
+    <m:eq/>
+    <m:cn>10101</m:cn>
+    <m:apply>
+      <m:plus/>
+      <m:apply>
+        <m:times/>
+        <m:cn>1</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>2</m:cn>
+          <m:cn>4</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:apply>
+        <m:times/>
+        <m:cn>0</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>2</m:cn>
+          <m:cn>3</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:apply>
+        <m:times/>
+        <m:cn>1</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>2</m:cn>
+          <m:cn>2</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:apply>
+        <m:times/>
+        <m:cn>0</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>2</m:cn>
+          <m:cn>1</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:apply>
+        <m:times/>
+        <m:cn>1</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>2</m:cn>
+          <m:cn>0</m:cn>
+        </m:apply>
+      </m:apply>
+    </m:apply>
+    <m:apply>
+      <m:plus/>
+      <m:apply>
+        <m:times/>
+        <m:cn>1</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>2</m:cn>
+          <m:cn>4</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:apply>
+        <m:times/>
+        <m:cn>1</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>2</m:cn>
+          <m:cn>2</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:cn>1</m:cn>
+    </m:apply>
+    <m:apply>
+      <m:plus/>
+      <m:cn>16</m:cn>
+      <m:cn>4</m:cn>
+      <m:cn>1</m:cn>
+    </m:apply>
+    <m:cn>21</m:cn>
+  </m:apply>
+</m:math></equation>
+    </item></list>
+      </solution></exercise>
+<exercise id="secfhsst_id226240"><problem id="imp-id1167649624412"><para id="id274273">  Convert 011010 to decimal. </para></problem>
+<solution id="imp-id7734218">
+
+      <para id="id274706">Write out the sum of each digit multiplied by its correct power of two:</para>
+
+<equation id="eip-676"><m:math display="display">
+  <m:apply>
+    <m:eq/>
+    <m:cn>011010</m:cn>
+    <m:apply>
+      <m:plus/>
+      <m:apply>
+        <m:times/>
+        <m:cn>0</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>2</m:cn>
+          <m:cn>5</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:apply>
+        <m:times/>
+        <m:cn>1</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>2</m:cn>
+          <m:cn>4</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:apply>
+        <m:times/>
+        <m:cn>1</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>2</m:cn>
+          <m:cn>3</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:apply>
+        <m:times/>
+        <m:cn>0</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>2</m:cn>
+          <m:cn>2</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:apply>
+        <m:times/>
+        <m:cn>1</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>2</m:cn>
+          <m:cn>1</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:apply>
+        <m:times/>
+        <m:cn>0</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>2</m:cn>
+          <m:cn>0</m:cn>
+        </m:apply>
+      </m:apply>
+    </m:apply>
+    <m:apply>
+      <m:plus/>
+      <m:cn>16</m:cn>
+      <m:cn>8</m:cn>
+      <m:apply>
+        <m:eq/>
+        <m:cn>2</m:cn>
+        <m:cn>26</m:cn>
+      </m:apply>
+    </m:apply>
+  </m:apply>
+</m:math></equation>
+</solution></exercise>
+      
+<exercise id="secfhsst_id321329"><problem id="imp-id1167647920784"><para id="id274734">  Convert the decimal number 47 to binary unsigned.</para>
+      
+      </problem>
+<solution id="imp-id3756627">
+
+      <list id="Solution47" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label>Find the largest multiple of two less than or equal to the decimal number</label>
+<para id="eip-id1165835226844">For the decimal number 47, the largest multiple of two is 32 (<m:math>
+  <m:apply>
+    <m:power/>
+    <m:cn>2</m:cn>
+    <m:cn>5</m:cn>
+  </m:apply>
+</m:math>).
+</para>
+    
+  </item>
+  
+  <item><label>Subtract the largest multiple from the decimal number.</label>
+    <equation id="eip-341"><m:math>
+  <m:apply>
+    <m:eq/>
+    <m:apply>
+      <m:minus/>
+      <m:cn>47</m:cn>
+      <m:cn>32</m:cn>
+    </m:apply>
+    <m:cn>15</m:cn>
+  </m:apply>
+</m:math></equation></item>
+    
+  <item><label>Repeat Step 1 and 2 until there is no remainder</label>
+<equation id="s43098a7sdkfjh">
+<m:math>
+  <m:apply>
+    <m:eq/>
+    <m:apply>
+      <m:minus/>
+      <m:cn>15</m:cn>
+      <m:cn>8</m:cn>
+    </m:apply>
+    <m:cn>7</m:cn>
+  </m:apply>
+</m:math>
+</equation>
+<equation id="eip-id1166050715217">
+<m:math>
+  <m:apply>
+    <m:eq/>
+    <m:apply>
+      <m:minus/>
+      <m:cn>7</m:cn>
+      <m:cn>4</m:cn>
+    </m:apply>
+    <m:cn>3</m:cn>
+  </m:apply>
+</m:math>
+</equation>
+<equation id="eip-id1166051751407">
+<m:math>
+  <m:apply>
+    <m:eq/>
+    <m:apply>
+      <m:minus/>
+      <m:cn>3</m:cn>
+      <m:cn>2</m:cn>
+    </m:apply>
+    <m:cn>1</m:cn>
+  </m:apply>
+</m:math>
+</equation>
+
+<equation id="eip-id1165660785546">
+<m:math>
+  <m:apply>
+    <m:eq/>
+    <m:apply>
+      <m:minus/>
+      <m:cn>1</m:cn>
+      <m:cn>1</m:cn>
+    </m:apply>
+    <m:cn>0</m:cn>
+  </m:apply>
+</m:math>
+
+</equation>
+</item>
+
+<item><label>Construct the binary number out of the powers of two subtracted from the decimal number</label>
+<equation id="s430987sdkfjh"><m:math>
+  <m:apply>
+    <m:eq/>
+    <m:cn>47</m:cn>
+    <m:apply>
+      <m:plus/>
+      <m:cn>32</m:cn>
+      <m:cn>8</m:cn>
+      <m:cn>4</m:cn>
+      <m:cn>2</m:cn>
+      <m:cn>1</m:cn>
+    </m:apply>
+    <m:apply>
+      <m:plus/>
+      <m:apply>
+        <m:power/>
+        <m:cn>2</m:cn>
+        <m:cn>5</m:cn>
+      </m:apply>
+      <m:apply>
+        <m:power/>
+        <m:cn>2</m:cn>
+        <m:cn>3</m:cn>
+      </m:apply>
+      <m:apply>
+        <m:power/>
+        <m:cn>2</m:cn>
+        <m:cn>2</m:cn>
+      </m:apply>
+      <m:apply>
+        <m:power/>
+        <m:cn>2</m:cn>
+        <m:cn>1</m:cn>
+      </m:apply>
+      <m:apply>
+        <m:power/>
+        <m:cn>2</m:cn>
+        <m:cn>0</m:cn>
+      </m:apply>
+    </m:apply>
+   <m:cn>101111(binary)</m:cn>
+  </m:apply>
+</m:math></equation><para id="eip-370">Note: If necessary, you can check your answer by reversing the steps and converting it back to decimal.</para>
+</item></list>
+</solution></exercise>
+    </section><section id="eip-968"><title>Binary Signed</title><exercise id="eip-814"><problem id="eip-421">
+  <para id="eip-237">
+    Convert 11001110 (signed) to decimal value.
+  </para>
+</problem>
+
+<solution id="eip-228">
+  <list id="eip-id1167326136158" list-type="enumerated" number-style="arabic" class="stepwise"><item>
+<label>Check most significant bit to see if it is negative or positive</label>
+<para id="eip-id1166247923407">
+The most significant bit is 1. This means it is negative.
+</para>
+</item>
+
+<item>
+<label>Sum the powers of two for the bits after the most significant one</label>
+<equation id="eip-id1163906594476"><m:math>
+  <m:apply>
+    <m:eq/>
+    <m:cn>1001110</m:cn>
+    <m:apply>
+      <m:plus/>
+      <m:apply>
+        <m:power/>
+        <m:cn>2</m:cn>
+        <m:cn>6</m:cn>
+      </m:apply>
+      <m:apply>
+        <m:power/>
+        <m:cn>2</m:cn>
+        <m:cn>3</m:cn>
+      </m:apply>
+      <m:apply>
+        <m:power/>
+        <m:cn>2</m:cn>
+        <m:cn>2</m:cn>
+      </m:apply>
+      <m:apply>
+        <m:power/>
+        <m:cn>2</m:cn>
+        <m:cn>1</m:cn>
+      </m:apply>
+    </m:apply>
+    <m:apply>
+      <m:plus/>
+      <m:cn>64</m:cn>
+      <m:cn>8</m:cn>
+      <m:cn>4</m:cn>
+      <m:cn>2</m:cn>
+    </m:apply>
+    <m:apply>
+      <m:cn>78</m:cn>
+    </m:apply>
+  </m:apply>
+</m:math></equation>
+</item>
+
+<item>
+<label>Attach the sign to the decimal number</label>
+<para id="eip-id1169798275311">Thus the answer is -78.</para>
+</item></list>
+</solution>
+</exercise><exercise id="eip-85"><problem id="eip-id1166137545366">
+  <para id="eip-id1166136268528">Convert -98 to signed binary(8bit).
+  </para>
+</problem>
+
+<solution id="eip-id1166132789028">
+   <list id="eip-id1166166158173" list-type="enumerated" number-style="arabic" class="stepwise"><item><label>The most significant bit holds the sign value</label>
+<para id="eip-id1166143013458">In this case, the decimal number is negative so the most significant bit is 1.</para>
+</item>
+
+<item><label>Subtract the largest multiple of 2 less than or equal to the decimal number</label>
+<equation id="eip-id1166139344604">
+<m:math display="display">
+  <m:apply>
+    <m:eq/>
+    <m:apply>
+      <m:minus/>
+      <m:cn>98</m:cn>
+      <m:apply>
+        <m:power/>
+        <m:cn>2</m:cn>
+        <m:cn>6</m:cn>
+      </m:apply>
+    </m:apply>
+    <m:apply>
+      <m:minus/>
+      <m:cn>98</m:cn>
+      <m:cn>64</m:cn>
+    </m:apply>
+    <m:cn>34</m:cn>
+  </m:apply>
+</m:math>
+</equation>
+</item>
+
+<item><label>Repeat this step until there is no remainder. Note down the powers of two</label>
+<equation id="eip-id1166138630614">
+<m:math display="display">
+  <m:apply>
+    <m:eq/>
+    <m:apply>
+      <m:minus/>
+      <m:cn>34</m:cn>
+      <m:apply>
+        <m:power/>
+        <m:cn>2</m:cn>
+        <m:cn>5</m:cn>
+      </m:apply>
+    </m:apply>
+    <m:apply>
+      <m:minus/>
+      <m:cn>34</m:cn>
+      <m:cn>32</m:cn>
+    </m:apply>
+    <m:cn>2</m:cn>
+  </m:apply>
+</m:math>
+</equation>
+<equation id="eip-id1166143532309">
+<m:math display="display">
+  <m:apply>
+    <m:eq/>
+    <m:apply>
+      <m:minus/>
+      <m:cn>2</m:cn>
+      <m:apply>
+        <m:power/>
+        <m:cn>2</m:cn>
+        <m:cn>1</m:cn>
+      </m:apply>
+    </m:apply>
+    <m:cn>0</m:cn>
+  </m:apply>
+</m:math>
+</equation>
+</item>
+
+<item><label>Construct the decimal number from the powers of two from the previous steps</label>
+<equation id="eip-id1165996006814">
+<m:math display="display">
+  <m:apply>
+    <m:eq/>
+    <m:apply>
+      <m:minus/>
+      <m:cn>98</m:cn>
+    </m:apply>
+    <m:apply>
+      <m:minus/>
+      <m:apply>
+        <m:plus/>
+        <m:apply>
+          <m:power/>
+          <m:cn>2</m:cn>
+          <m:cn>6</m:cn>
+        </m:apply>
+        <m:apply>
+          <m:power/>
+          <m:cn>2</m:cn>
+          <m:cn>5</m:cn>
+        </m:apply>
+        <m:apply>
+          <m:power/>
+          <m:cn>2</m:cn>
+          <m:cn>1</m:cn>
+        </m:apply>
+      </m:apply>
+    </m:apply>
+    <m:cn>11100010</m:cn>
+  </m:apply>
+</m:math>
+</equation>
+</item></list>
+</solution>
+</exercise><exercise id="eip-375"><problem id="eip-id1169703188278">
+  <para id="eip-id1169695205533">Convert 98 to signed binary(8bit).
+  </para>
+</problem>
+
+<solution id="eip-id1169705203021">
+   <list id="eip-id1169695387562" list-type="enumerated" number-style="arabic" class="stepwise"><item><label>The most significant bit holds the sign value</label>
+<para id="eip-id1169700911889">In this case, the decimal number is negative so the most significant bit is 0.</para>
+<para id="eip-id1165995372061">Since we have already calculated the binary representation for 98, we can use the answer from the previous example. The steps are shown again to illustrate this.</para>
+</item>
+
+<item><label>Subtract the largest multiple of 2 less than or equal to the decimal number</label>
+<equation id="eip-id6556184">
+<m:math display="display">
+  <m:apply>
+    <m:eq/>
+    <m:apply>
+      <m:minus/>
+      <m:cn>98</m:cn>
+      <m:apply>
+        <m:power/>
+        <m:cn>2</m:cn>
+        <m:cn>6</m:cn>
+      </m:apply>
+    </m:apply>
+    <m:apply>
+      <m:minus/>
+      <m:cn>98</m:cn>
+      <m:cn>64</m:cn>
+    </m:apply>
+    <m:cn>34</m:cn>
+  </m:apply>
+</m:math>
+</equation>
+</item>
+
+<item><label>Repeat this step until there is no remainder. Note down the powers of two</label>
+<equation id="eip-id1169694430121">
+<m:math display="display">
+  <m:apply>
+    <m:eq/>
+    <m:apply>
+      <m:minus/>
+      <m:cn>34</m:cn>
+      <m:apply>
+        <m:power/>
+        <m:cn>2</m:cn>
+        <m:cn>5</m:cn>
+      </m:apply>
+    </m:apply>
+    <m:apply>
+      <m:minus/>
+      <m:cn>34</m:cn>
+      <m:cn>32</m:cn>
+    </m:apply>
+    <m:cn>2</m:cn>
+  </m:apply>
+</m:math>
+</equation>
+<equation id="eip-id1169699716920">
+<m:math display="display">
+  <m:apply>
+    <m:eq/>
+    <m:apply>
+      <m:minus/>
+      <m:cn>2</m:cn>
+      <m:apply>
+        <m:power/>
+        <m:cn>2</m:cn>
+        <m:cn>1</m:cn>
+      </m:apply>
+    </m:apply>
+    <m:cn>0</m:cn>
+  </m:apply>
+</m:math>
+</equation>
+</item>
+
+<item><label>Construct the decimal number from the powers of two from the previous steps</label>
+<equation id="eip-id1169706373295"><m:math>
+  <m:apply>
+    <m:eq/>
+    <m:cn>98</m:cn>
+    <m:apply>
+      <m:plus/>
+      <m:apply>
+        <m:power/>
+        <m:cn>2</m:cn>
+        <m:cn>6</m:cn>
+      </m:apply>
+      <m:apply>
+        <m:power/>
+        <m:cn>2</m:cn>
+        <m:cn>5</m:cn>
+      </m:apply>
+      <m:apply>
+        <m:power/>
+        <m:cn>2</m:cn>
+        <m:cn>1</m:cn>
+      </m:apply>
+    </m:apply>
+    <m:cn>01100010</m:cn>
+  </m:apply>
+</m:math></equation>
+</item></list>
+</solution>
+</exercise></section><section id="eip-611"><title>Binary - Two's Complement</title><para id="eip-90">The table below is a refresher for two's complement.
+</para><table id="eip-438" summary="Two's Comp Table"><title>Two's Complment</title>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry>Two's Complement</entry>
+    <entry>Decimal</entry>
+
+  </row>
+  <row>
+    <entry>0111</entry>
+    <entry>7</entry>
+  </row>
+  <row>
+    <entry>0110</entry>
+    <entry>6</entry>
+  </row>
+
+  <row>
+    <entry>0101</entry>
+    <entry>5</entry>
+  </row>
+
+  <row>
+    <entry>0100</entry>
+    <entry>4</entry>
+  </row>
+
+  <row>
+    <entry>0011</entry>
+    <entry>3</entry>
+  </row>
+
+  <row>
+    <entry>0010</entry>
+    <entry>2</entry>
+  </row>
+
+  <row>
+    <entry>0001</entry>
+    <entry>1</entry>
+  </row>
+
+  <row>
+    <entry>0000</entry>
+    <entry>0</entry>
+  </row>
+
+  <row>
+    <entry>1111</entry>
+    <entry>-1</entry>
+  </row>
+
+  <row>
+    <entry>1110</entry>
+    <entry>-2</entry>
+  </row>
+  <row>
+    <entry>1101</entry>
+    <entry>-3</entry>
+  </row>
+  <row>
+    <entry>1100</entry>
+    <entry>-4</entry>
+  </row>
+  <row>
+    <entry>1011</entry>
+    <entry>-5</entry>
+  </row>
+  <row>
+    <entry>1010</entry>
+    <entry>-6</entry>
+  </row>
+  <row>
+    <entry>1001</entry>
+    <entry>-7</entry>
+  </row>
+  <row>
+    <entry>1000</entry>
+    <entry>-8</entry>
+  </row>
+</tbody>
+
+
+</tgroup>
+</table><exercise id="eip-420"><problem id="eip-id1170304593994">
+  <para id="eip-id1170303917841">Convert 001011 (two's complement 6-bit) to decimal value.
+  </para>
+</problem>
+
+<solution id="eip-id1170298931655">
+   <list id="eip-id1170301065910" list-type="enumerated" number-style="arabic" class="stepwise"><item><label>The most significant bit holds the sign value following the same convention as signed binary</label>
+<para id="eip-id1170304080133">In this case, the most significant bit is 0. The number is positive.</para>
+</item>
+
+<item><label>Since this number is positive, we can treat the remaining binary digits as per normal</label>
+<equation id="eip-id1170304046507"><m:math>
+  <m:apply>
+    <m:eq/>
+    <m:cn>001011</m:cn>
+    <m:cn>1011</m:cn>
+    <m:apply>
+      <m:plus/>
+      <m:apply>
+        <m:power/>
+        <m:cn>2</m:cn>
+        <m:cn>3</m:cn>
+      </m:apply>
+      <m:apply>
+        <m:power/>
+        <m:cn>2</m:cn>
+        <m:cn>1</m:cn>
+      </m:apply>
+      <m:apply>
+        <m:power/>
+        <m:cn>2</m:cn>
+        <m:cn>0</m:cn>
+      </m:apply>
+    </m:apply>
+    <m:apply>
+      <m:plus/>
+      <m:cn>8</m:cn>
+      <m:cn>2</m:cn>
+      <m:cn>1</m:cn>
+    </m:apply>
+    <m:cn>11</m:cn>
+  </m:apply>
+</m:math>
+</equation>
+</item>
+</list>
+</solution></exercise><exercise id="eip-515"><problem id="eip-343">
+  <para id="eip-265">Convert 111011 (two's complement 6-bit) to decimal value</para>
+</problem>
+
+<solution id="eip-618">
+  <list id="eip-id1165084191211" list-type="enumerated" number-style="arabic" class="stepwise"><item><label>Check the most significant bit for sign value</label>
+<para id="eip-id1170794478640">The first bit is 1 so the number is negative.</para>
+</item>
+
+<item>
+<label>Invert the remaining bits</label>
+<para id="eip-id1170762341384">11011 --&gt; 00100</para>
+</item>
+
+
+<item>
+<label>Add 1 and calculate the decimal value of the number</label>
+<equation id="eip-id1170764726797">
+<m:math>
+  <m:apply>
+    <m:eq/>
+    <m:apply>
+      <m:plus/>
+      <m:cn>00100</m:cn>
+      <m:cn>1</m:cn>
+    </m:apply>
+    <m:cn>00101</m:cn>
+    <m:apply>
+      <m:plus/>
+      <m:apply>
+        <m:power/>
+        <m:cn>2</m:cn>
+        <m:cn>2</m:cn>
+      </m:apply>
+      <m:apply>
+        <m:power/>
+        <m:cn>2</m:cn>
+        <m:cn>0</m:cn>
+      </m:apply>
+    </m:apply>
+    <m:cn>5</m:cn>
+  </m:apply>
+</m:math>
+</equation>
+</item>
+
+<item>
+<label>Add the negative sign to decimal value.</label>
+<para id="eip-id1166034522121">Thus the answer is -5.</para>
+</item></list>
+</solution>
+</exercise><exercise id="eip-568"><problem id="eip-id1167310546074">
+  <para id="eip-id1167315271562">Convert -13 to two's complement 8-bit binary.</para>
+</problem>
+
+<solution id="eip-id1167310550641">
+  <list id="eip-id1167311421745" list-type="enumerated" number-style="arabic" class="stepwise"><item><label>Use the sign of the decimal value to choose the most significant bit</label>
+<para id="eip-id1167310546544">The number is negative so the most significant bit will be 1.</para>
+</item>
+
+<item>
+<label>Convert the decimal value into binary</label>
+<equation id="eip-id1172729002090"><m:math>
+  <m:apply>
+    <m:eq/>
+    <m:cn>13</m:cn>
+    <m:apply>
+      <m:plus/>
+      <m:cn>8</m:cn>
+      <m:cn>4</m:cn>
+      <m:cn>1</m:cn>
+    </m:apply>
+    <m:apply>
+      <m:plus/>
+      <m:apply>
+        <m:power/>
+        <m:cn>2</m:cn>
+        <m:cn>3</m:cn>
+      </m:apply>
+      <m:apply>
+        <m:power/>
+        <m:cn>2</m:cn>
+        <m:cn>2</m:cn>
+      </m:apply>
+      <m:apply>
+        <m:power/>
+        <m:cn>2</m:cn>
+        <m:cn>0</m:cn>
+      </m:apply>
+    </m:apply>
+    <m:cn>1101</m:cn>
+  </m:apply>
+</m:math></equation>
+</item>
+
+
+<item>
+<label>Subtract 1 and invert the binary numbers</label>
+<equation id="eip-id1167310527640"><m:math>
+  <m:apply>
+    <m:eq/>
+    <m:apply>
+      <m:minus/>
+      <m:cn>1101</m:cn>
+      <m:cn>1</m:cn>
+    </m:apply>
+    <m:cn>1100</m:cn>
+  </m:apply>
+</m:math>
+</equation>
+<para id="eip-id1172729155360">1100 --&gt; 0011
+</para>
+</item>
+
+<item>
+<label>Sign extend the number to the appropriate number of digits</label>
+<para id="eip-id1167310550177">0011 --&gt; 11110011</para>
+</item></list>
+</solution>
+</exercise></section><section id="eip-461"><title>Hexadecimal</title><para id="eip-479">A reference table is attached for conversion between decimal, hexadecimal and binary.</para><table id="eip-300" summary="Hex table"><title>Hexadecimal Reference</title>
+<tgroup cols="3"><tbody>
+  <row>
+    <entry>Decimal</entry>
+    <entry>Hexadecimal</entry>
+    <entry>Binary</entry>
+  </row>
+  <row>
+    <entry>0</entry>
+    <entry>0</entry>
+    <entry>0000</entry>
+  </row>
+  <row>
+    <entry>1</entry>
+    <entry>1</entry>
+    <entry>0001</entry>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry>2</entry>
+    <entry>0010</entry>
+  </row>
+  <row>
+    <entry>3</entry>
+    <entry>3</entry>
+    <entry>0011</entry>
+  </row>
+  <row>
+    <entry>4</entry>
+    <entry>4</entry>
+    <entry>0100</entry>
+  </row>
+  <row>
+    <entry>5</entry>
+    <entry>5</entry>
+    <entry>0101</entry>
+  </row>
+  <row>
+    <entry>6</entry>
+    <entry>6</entry>
+    <entry>0110</entry>
+  </row>
+  <row>
+    <entry>7</entry>
+    <entry>7</entry>
+    <entry>0111</entry>
+  </row>
+  <row>
+    <entry>8</entry>
+    <entry>8</entry>
+    <entry>1000</entry>
+  </row>
+  <row>
+    <entry>9</entry>
+    <entry>9</entry>
+    <entry>1001</entry>
+  </row>
+  <row>
+    <entry>10</entry>
+    <entry>A</entry>
+    <entry>1010</entry>
+  </row>
+  <row>
+    <entry>11</entry>
+    <entry>B</entry>
+    <entry>1011</entry>
+  </row>
+  <row>
+    <entry>12</entry>
+    <entry>C</entry>
+    <entry>1100</entry>
+  </row>
+  <row>
+    <entry>13</entry>
+    <entry>D</entry>
+    <entry>1101</entry>
+  </row>
+  <row>
+    <entry>14</entry>
+    <entry>E</entry>
+    <entry>1110</entry>
+  </row>
+  <row>
+    <entry>15</entry>
+    <entry>F</entry>
+    <entry>1111</entry>
+  </row>
+</tbody>
+</tgroup>
+</table><exercise id="eip-325"><problem id="eip-723">
+  <para id="eip-262">Convert ABC (hexadecimal) to binary and decimal.</para>
+  <para id="eip-id1166235216565">It may sometimes be easier to convert to decimal first and then binary.</para>
+
+</problem>
+
+<solution id="eip-329">
+<list id="eip-id1166239319133" list-type="enumerated" number-style="arabic" class="stepwise"><item><label>Convert the letters to their decimal values using the table</label>
+<para id="eip-id1166230929620">ABC --&gt; 10 , 11 , 12</para>
+</item>
+
+<item><label>Multiply the decimal values by the correct power of 16 based on their significant position. Add the values</label>
+<equation id="eip-id1166239626258">
+<m:math>
+  <m:apply>
+    <m:eq/>
+    <m:apply>
+      <m:plus/>
+      <m:apply>
+        <m:times/>
+        <m:cn>10</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>16</m:cn>
+          <m:cn>2</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:apply>
+        <m:times/>
+        <m:cn>11</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>16</m:cn>
+          <m:cn>1</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:apply>
+        <m:times/>
+        <m:cn>12</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>16</m:cn>
+          <m:cn>0</m:cn>
+        </m:apply>
+      </m:apply>
+    </m:apply>
+    <m:apply>
+      <m:plus/>
+      <m:cn>2560</m:cn>
+      <m:cn>176</m:cn>
+      <m:cn>12</m:cn>
+    </m:apply>
+    <m:cn>2748</m:cn>
+  </m:apply>
+</m:math>
+</equation>
+</item>
+
+
+<item><label>Convert the decimal values to 4-bit binary numbers</label>
+<para id="eip-id8412285">ABC --&gt; 10 + 11 + 12 --&gt; 1010 1011 1100</para>
+</item>
+
+<item><label>The binary number can be constructed with these values simply by merging them</label>
+<para id="eip-id1172730890705">1010 1011 1100 --&gt; 101010111100
+</para>
+</item>
+</list>
+</solution>
+</exercise><exercise id="eip-27"><problem id="eip-480">
+  <para id="eip-19">
+    Convert 1010011110000001 to its decimal and hexadecimal values.
+  </para>
+</problem>
+
+<solution id="eip-955">
+<list id="eip-id1166229892430" list-type="enumerated" number-style="arabic" class="stepwise"><item><label>Separate the binary number into blocks of 4 starting from the least significant bit</label>
+<para id="eip-id1166244398093">1010011110000001  --&gt;  1010 0111 1000 0001</para>
+</item>
+
+<item><label>Convert each 4-bit block into its hexadecimal value to get the answer</label>
+<para id="eip-id1166267105988">1010 0111 1000 0001 --&gt; A781</para>
+</item>
+
+<item><label>It is usually easier to convert from hexadecimal to decimal than from binary to decimal</label>
+<para id="eip-id1166240360859">A781 --&gt; 10, 7, 8, 1
+</para>
+<equation id="eip-id1166260340670">
+<m:math>
+  <m:apply>
+    <m:eq/>
+    <m:apply>
+      <m:plus/>
+      <m:apply>
+        <m:times/>
+        <m:cn>10</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>16</m:cn>
+          <m:cn>3</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:apply>
+        <m:times/>
+        <m:cn>7</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>16</m:cn>
+          <m:cn>2</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:apply>
+        <m:times/>
+        <m:cn>8</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>16</m:cn>
+          <m:cn>1</m:cn>
+        </m:apply>
+      </m:apply>
+      <m:apply>
+        <m:times/>
+        <m:cn>1</m:cn>
+        <m:apply>
+          <m:power/>
+          <m:cn>16</m:cn>
+          <m:cn>0</m:cn>
+        </m:apply>
+      </m:apply>
+    </m:apply>
+    <m:apply>
+      <m:plus/>
+      <m:cn>40960</m:cn>
+      <m:cn>1792</m:cn>
+      <m:cn>128</m:cn>
+      <m:cn>1</m:cn>
+    </m:apply>
+    <m:cn>42881</m:cn>
+  </m:apply>
+</m:math>
+</equation>
+</item>
+
+</list>
+</solution>
+</exercise></section>
+    
+    
+    
+    
+  </content>
+</document>

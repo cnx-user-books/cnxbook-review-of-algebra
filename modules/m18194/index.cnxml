@@ -1,0 +1,66 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Function Concepts -- What is a Variable?</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18194</md:content-id>
+  <md:title>Function Concepts -- What is a Variable?</md:title>
+  <md:abstract>This module defines what a variable is and what it does.</md:abstract>
+  <md:uuid>13207e80-98d1-44f2-8cf3-1fa8b1281169</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://www.brightstorm.com/d/math/s/algebra/u/pre-algebra/t/defining-variables" strength="3">Defining Variables</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="element-555">A variable is a letter that stands for a number you don’t know, or a number that can change.</para><para id="element-843">A few examples:</para><example id="element-590"><title>Good Examples of Variable Definitions</title>	
+<list id="var_def">
+<item>“Let <m:math><m:mi> p </m:mi></m:math> be the number of people in a classroom.”</item>
+<item>“Let <m:math><m:mi> A </m:mi></m:math> be John’s age, measured in years.”</item>
+<item>“Let <m:math><m:mi> h </m:mi></m:math> be the number of hours that Susan has been working.”</item>
+</list></example><para id="element-533">In each case, the letter stands for a very specific number.  However, we use a letter instead of a number because we don’t know the specific number.  In the first example above, different classrooms will have different numbers of people (so p can be different numbers in different classes); in the second example, John’s age is a specific and well-defined number, but we don’t know what it is (at least not yet); and in the third example, h will actually change its value every hour.  In all three cases, we have a good reason for using a letter: it represents a number, but we cannot use a specific number such as “–3” or “      <m:math>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>4</m:mn>
+                  <m:mfrac>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math>”.</para>
+<example id="element-930"><title>Bad Examples of Variable Definitions</title>
+<list id="var_def_2"><item>“Let <m:math><m:mi> n </m:mi></m:math> be the nickels.”</item>
+<item>“Let <m:math><m:mi> M </m:mi></m:math> be the number of minutes in an hour.”</item>
+</list></example>
+<para id="element-619">The first error is by far the most common.  Remember that a variable always stands for a number.  “The nickels” are not a number.  Better definitions would be: “Let <m:math><m:mi> n </m:mi></m:math> be the number of nickels” or “Let <m:math><m:mi> n </m:mi></m:math> be the total value of the nickels, measured in cents” or “Let <m:math><m:mi> n </m:mi></m:math> be the total mass of the nickels, measured in grams.”</para>
+<para id="element-634">The second example is better, because “number of minutes in an hour” is a number.  But there is no reason to call it “The Mysterious Mr. M” because we already know what it is.  Why use a letter when you just mean “60”?</para>
+<para id="element-690"><emphasis>Bad variable definitions are one of the most common reasons that students get stuck on word problems—or get the wrong answer.</emphasis> The first type of error illustrated above leads to variable confusion: n will end up being used for “number of nickels” in one equation and “total value of the nickels” in another, and you end up with the wrong answer.  The second type of error is more harmless—it won’t lead to wrong answers—but it won’t help either.  It usually indicates that the student is asking the wrong question (“What can I assign a variable to?”) instead of the right question (“What numbers do I need to know?”)</para>
+
+<section id="variables">
+<title>Variables aren’t all called x.  Get used to it.</title>
+<para id="variable_1">Many students expect all variables to be named <m:math><m:mi> x </m:mi></m:math>, with possibly an occasional guest appearance by <m:math><m:mi> y </m:mi></m:math>.  In fact, variables can be named with practically any letter.  Uppercase letters, lowercase letters, and even Greek letters are commonly used for variable names.  Hence, a problem might start with “Let <m:math><m:mi> H </m:mi></m:math> be the home team’s score and <m:math><m:mi> V </m:mi></m:math> be the visiting team’s score.”
+</para>
+<para id="variables_2">
+If you attempt to call both of these variables <m:math><m:mi> x </m:mi></m:math>, it just won’t work.  You could in principle call one of them <m:math><m:mi> x </m:mi></m:math> and the other <m:math><m:mi> y </m:mi></m:math>, but that would make it more difficult to remember which variable goes with which team.  It is important to become comfortable using a wide range of letters.  (I do, however, recommend avoiding the letter o whenever possible, since it looks like the number 0.)
+</para>
+</section>
+  </content>
+  
+</document>

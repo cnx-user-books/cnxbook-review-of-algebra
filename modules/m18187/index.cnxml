@@ -1,0 +1,454 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Function Concepts -- Composite Functions</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>6639d378-b481-460b-b762-c8376e70efde</md:uuid>
+</metadata>
+  <content>
+      
+      <para id="id10133796">You are working in the school cafeteria, making peanut butter sandwiches for today’s lunch.</para>
+      <list list-type="bulleted" id="id11205999">
+        <item>The more classes the school has, the more children there are.</item>
+        <item>The more children there are, the more sandwiches you have to make.</item>
+        <item>The more sandwiches you have to make, the more pounds (lbs) of peanut butter you will use.</item>
+        <item>The more peanut butter you use, the more money you need to budget for peanut butter.</item>
+      </list>
+      <para id="id9533187">...and so on. Each sentence in this little story is a function. Mathematically, if 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math> is the number of classes and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>h</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math> is the number of children, then the first sentence asserts the existence of a function 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>c</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h \( c \) } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id9718380">The principal walks up to you at the beginning of the year and says “We’re considering expanding the school. If we expand to 70 classes, how much money do we need to budget? What if we expand to 75? How about 80?” For each of these numbers, you have to calculate each number from the previous one, until you find the final budget number.</para>
+      <table frame="none" id="element-540" summary="">
+<tgroup cols="9"><tbody>
+  <row>
+    <entry><m:math>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:munder accentunder="true">
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mtext># Classes</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mo stretchy="true">→</m:mo>
+                </m:munder>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math></entry>
+    <entry><media id="idp3841360" alt="Gearbox"><image src="../../media/gearbox_7.png" mime-type="image/png" print-width="2in"/></media> </entry>
+    <entry><m:math>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:munder accentunder="true">
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mtext># Children</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mo stretchy="true">→</m:mo>
+                </m:munder>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math></entry>
+    <entry><media id="idp5120464" alt="Gearbox"><image src="../../media/gearbox_7.png" mime-type="image/png" print-width="2in"/></media> </entry>
+    <entry><m:math>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:munder accentunder="true">
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mtext># Sandwiches</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mo stretchy="true">→</m:mo>
+                </m:munder>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math></entry>
+    <entry><media id="idm3404832" alt="Gearbox"><image src="../../media/gearbox_7.png" mime-type="image/png" print-width="2in"/></media> </entry>
+    <entry><m:math>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:munder accentunder="true">
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mtext>lb.</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mo stretchy="true">→</m:mo>
+                </m:munder>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math></entry>
+    <entry><media id="idp3124960" alt="Gearbox"><image src="../../media/gearbox_7.png" mime-type="image/png" print-width="2in"/></media> </entry>
+    <entry><m:math>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:munder accentunder="true">
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mtext>$$</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mo stretchy="true">→</m:mo>
+                </m:munder>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math></entry>
+  </row>
+</tbody>
+
+
+</tgroup>
+</table>
+      <para id="id9023875">But going through this process each time is tedious. What you want is one function that puts the entire chain together: “You tell me the number of classes, and I will tell you the budget.”</para>
+      <table frame="none" id="element-731" summary="">
+<tgroup cols="3"><tbody>
+  <row>
+    <entry><m:math>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:munder accentunder="true">
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mtext># Classes</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mo stretchy="true">→</m:mo>
+                </m:munder>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math></entry>
+    <entry><media id="idp2105552" alt="Gearbox"><image src="../../media/gearbox_8.png" mime-type="image/png" print-width="4in"/></media> </entry>
+    <entry><m:math>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:munder accentunder="true">
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mtext>$$</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mo stretchy="true">→</m:mo>
+                </m:munder>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math></entry>
+  </row>
+</tbody>
+
+
+
+</tgroup>
+</table>
+      <para id="id5505849">This is a <emphasis>composite function</emphasis>—a function that represents in one function, the results of an entire <emphasis>chain of dependent functions</emphasis>. Since such chains are very common in real life, finding composite functions is a very important skill.</para>
+      <section id="id-00469637264948">
+        <title>How do you make a composite Function?</title>
+        <para id="id10597619">We can consider how to build composite functions into the function game that we played on the first day. Suppose Susan takes any number you give her, quadruples it, and adds 6. Al takes any number you give him and divides it by 2. Mathematically, we can represent the two functions like this:</para>
+        <equation id="id10521120"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>S</m:mi>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mn>4x</m:mn>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>6</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{S \( x \) =4x+6} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <equation id="id9777147">
+          
+      <m:math>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>A</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math>
+            </equation>
+        <para id="id11145958">To create a chain like the one above, we give a number to Susan; she acts on it, and gives the resulting number to Al; and he then acts on it and hands back a third number.</para>
+        <para id="id8253250"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>3</m:mn>
+                  <m:mo stretchy="false">→</m:mo>
+                  <m:mstyle>
+                    <m:mrow>
+                      <m:mtext>Susan</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mo stretchy="false">→</m:mo>
+                  <m:mi>S</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>18</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">→</m:mo>
+                  <m:mstyle>
+                    <m:mrow>
+                      <m:mtext>Al</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mo stretchy="false">→</m:mo>
+                  <m:mi>A</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>18</m:mn>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>9</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{3 rightarrow  ital "Susan" rightarrow S \( 3 \) ="18" rightarrow  ital "Al" rightarrow A \( "18" \) =9} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+        <para id="id11161115">In this example, we are plugging 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{S \( 3 \) } {}</m:annotation></m:semantics></m:math>—in other words, 18— into Al’s function. In general, for any 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> that comes in, we are plugging 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{S \( x \) } {}</m:annotation></m:semantics></m:math><emphasis> into </emphasis><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A \( x \) } {}</m:annotation></m:semantics></m:math>. So we could represent the entire process as 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">(</m:mo><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A \( S \( x \)  \) } {}</m:annotation></m:semantics></m:math>. This notation for composite functions is really nothing new: it means that you are plugging <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{S \( x \) } {}</m:annotation></m:semantics></m:math> into the <m:math><m:mi>A</m:mi></m:math> function. </para>
+        <para id="id9527343">But in this case, recall that 
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>S</m:mi>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mn>4x</m:mn>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>6</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{S \( x \) =4x+6} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+    . So we can write:</para>
+   <equation id="id11116309"><m:math>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>A</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>S</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mi>S</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>4x</m:mn>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>6</m:mn>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mn>2x</m:mn>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math>
+        </equation>
+        <para id="id11553383">What happened? We’ve just discovered a shortcut for the entire process. When you perform the operation 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">(</m:mo><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A \( S \( x \)  \) } {}</m:annotation></m:semantics></m:math>—that is, when you perform the Al function on the result of the Susan function—you are, in effect, doubling and adding 3. For instance, we saw earlier that when we started with a 3, we ended with a 9. Our composite function does this in one step:</para>
+        <para id="id9993081"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>3</m:mn>
+                  <m:mo stretchy="false">→</m:mo>
+                  <m:mrow>
+                    <m:mn>2x</m:mn>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">→</m:mo>
+                  <m:mn>9</m:mn>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{3 rightarrow 2x+3 rightarrow 9} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+        <para id="id9530589">Understanding the meaning of composite functions requires real thought. It requires understanding the idea that this variable depends on that variable, which in turn depends on the other variable; and how that idea is translated into mathematics. <emphasis>Finding</emphasis> composite functions, on the other hand, is a purely mechanical process—it requires practice, but no creativity. Whenever you are asked for 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( g \( x \)  \) } {}</m:annotation></m:semantics></m:math>, just plug the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g \( x \) } {}</m:annotation></m:semantics></m:math> function into the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> function and then simplify.</para>
+        <example id="element-244"><title> Building and Testing a Composite Function </title>	
+<para id="element-994"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mn>4x</m:mn></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) =x rSup { size 8{2} }  - 4x} {}</m:annotation></m:semantics></m:math></para><para id="element-941"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g \( x \) =x+2} {}</m:annotation></m:semantics></m:math></para><para id="element-12">What is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( g \( x \)  \) } {}</m:annotation></m:semantics></m:math>?</para><list id="element-434" list-type="bulleted"><item>To find the composite, plug 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g \( x \) } {}</m:annotation></m:semantics></m:math> into 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math>, just as you would with any number. </item></list><para id="element-259"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( g \( x \)  \) = \( x+2 \)  rSup { size 8{2} }  - 4 \( x+2 \) } {}</m:annotation></m:semantics></m:math></para><list id="element-456" list-type="bulleted"><item>Then simplify.</item>
+	</list><para id="element-843"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mi>x</m:mi><m:mrow><m:mrow><m:mmultiscripts><m:mtext/><m:mprescripts/><m:none/><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:mmultiscripts><m:mo stretchy="false">+</m:mo><m:mn>4x</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mn>4x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>8</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( g \( x \)  \) = \( x"" lSup { size 8{2} } +4x+4 \)  -  \( 4x+8 \) } {}</m:annotation></m:semantics></m:math></para><para id="element-754"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( g \( x \)  \) =x rSup { size 8{2} }  - 4} {}</m:annotation></m:semantics></m:math></para><list id="element-416" list-type="bulleted"><item>Let’s test it. 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( g \( x \)  \) } {}</m:annotation></m:semantics></m:math> means do 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>g</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g} {}</m:annotation></m:semantics></m:math>, then 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>f</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math>. What happens if we start with 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>9</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=9} {}</m:annotation></m:semantics></m:math>?</item></list><para id="element-307"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>7</m:mn>
+                  <m:mo stretchy="false">→</m:mo>
+                  <m:mi>g</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo stretchy="false">→</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>7</m:mn>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>9</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">→</m:mo>
+                  <m:mi>f</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo stretchy="false">→</m:mo>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>9</m:mn>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>9</m:mn>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>45</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{7 rightarrow g \( x \)  rightarrow 7+2=9 rightarrow f \( x \)  rightarrow  \( 9 \)  rSup { size 8{2} }  - 4 \( 9 \) ="45"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para><list id="element-315" list-type="bulleted"><item>So, if it worked, our <emphasis>composite function</emphasis> should do all of that in one step.</item></list><para id="element-542"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>7</m:mn><m:mo stretchy="false">→</m:mo><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>7</m:mn><m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>45</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{7 rightarrow x rSup { size 8{2} }  - 4= \( 7 \)  rSup { size 8{2} }  - 4="45"} {}</m:annotation></m:semantics></m:math> <m:math><m:mi>✓</m:mi></m:math> It worked!</para>
+</example>
+        <para id="id7337277">There is a different notation that is sometimes used for composite functions. This book will consistently use 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( g \( x \)  \) } {}</m:annotation></m:semantics></m:math> which very naturally conveys the idea of “plugging 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g \( x \) } {}</m:annotation></m:semantics></m:math> into 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math>.” However, you will sometimes see the same thing written as 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">°</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f circ g \( x \) } {}</m:annotation></m:semantics></m:math>, which more naturally conveys the idea of “doing one function, and then the other, in sequence.” The two notations mean the same thing.</para>
+      </section>
+  </content>
+</document>
