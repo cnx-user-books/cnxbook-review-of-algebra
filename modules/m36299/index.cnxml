@@ -12,7 +12,7 @@
     
     <section id="eip-276"><title>The Number Systems</title><para id="eip-71"><title>What are the different number systems?</title>We are all familiar with the decimal system. However, when working with computers, we need to start with the binary system. The reason for this is that computers use gates (or switches) which only have two states, on and off. This is what translates to the 1's and 0's of binary. From there, it is possible to build up to other more useful systems such as the decimal system or the hexadecimal system.</para>
 <para id="fs-id1171112631581">This module contains worked examples of how to convert between the decimal, hexadecimal and binary.</para></section>
-    <section id="eip-267"><title>Powers of 10 and 2</title><para id="eip-316">Before working through some examples, it will be useful to review how we use the decimal system. The decimal system can express any real rational number using the digits 0-9 and a minus sign. The places of the digits represent the power of ten that is being used. For example:</para><equation id="eip-625"><m:math display="display">
+    <section id="eip-267"><title>Powers of 10 and 2</title><para id="eip-316">Before working through some examples, it will be useful to review how we use the decimal system. The decimal system can express any real rational number using the digits 0-9 and a minus sign. The places of the digits represent the power of ten that is being used. For example:</para><equation id="eip-625"><m:math>
   <m:apply>
     <m:eq/>
     <m:cn>321</m:cn>
@@ -47,7 +47,7 @@
       </m:apply>
     </m:apply>
   </m:apply>
-</m:math></equation><equation id="eip-871"><m:math display="display">
+</m:math></equation><equation id="eip-871"><m:math>
   <m:apply>
     <m:eq/>
     <m:cn>5023</m:cn>
@@ -91,7 +91,7 @@
       </m:apply>
     </m:apply>
   </m:apply>
-</m:math></equation><para id="eip-326">In the same way, binary systems use 1's and 0's to express a number:</para><equation id="eip-863"><m:math display="display">
+</m:math></equation><para id="eip-326">In the same way, binary systems use 1's and 0's to express a number:</para><equation id="eip-863"><m:math>
   <m:apply>
     <m:eq/>
     <m:cn>23</m:cn>
@@ -150,7 +150,7 @@
     <list id="steplist" list-type="enumerated" number-style="arabic" class="stepwise"><item id="id274018">
           <label>Know which system you are dealing with.</label>
        
-      <para id="eip-id1165996367808">In this case, we are dealing with unsigned binary numbers. Our range of possible numbers are between 0 and <m:math display="display">
+      <para id="eip-id1165996367808">In this case, we are dealing with unsigned binary numbers. Our range of possible numbers are between 0 and <m:math>
   <m:apply>
     <m:minus/>
     <m:apply>
@@ -165,7 +165,7 @@
     </item>
     <item>
           <label>Write out the sum of each digit multiplied by its correct power of two depending on its position</label>
-      <equation id="eip-826"><m:math display="display">
+      <equation id="eip-826"><m:math>
   <m:apply>
     <m:eq/>
     <m:cn>10101</m:cn>
@@ -255,7 +255,7 @@
 
       <para id="id274706">Write out the sum of each digit multiplied by its correct power of two:</para>
 
-<equation id="eip-676"><m:math display="display">
+<equation id="eip-676"><m:math>
   <m:apply>
     <m:eq/>
     <m:cn>011010</m:cn>
@@ -537,7 +537,7 @@ The most significant bit is 1. This means it is negative.
 
 <item><label>Subtract the largest multiple of 2 less than or equal to the decimal number</label>
 <equation id="eip-id1166139344604">
-<m:math display="display">
+<m:math>
   <m:apply>
     <m:eq/>
     <m:apply>
@@ -562,7 +562,7 @@ The most significant bit is 1. This means it is negative.
 
 <item><label>Repeat this step until there is no remainder. Note down the powers of two</label>
 <equation id="eip-id1166138630614">
-<m:math display="display">
+<m:math>
   <m:apply>
     <m:eq/>
     <m:apply>
@@ -584,7 +584,7 @@ The most significant bit is 1. This means it is negative.
 </m:math>
 </equation>
 <equation id="eip-id1166143532309">
-<m:math display="display">
+<m:math>
   <m:apply>
     <m:eq/>
     <m:apply>
@@ -604,7 +604,7 @@ The most significant bit is 1. This means it is negative.
 
 <item><label>Construct the decimal number from the powers of two from the previous steps</label>
 <equation id="eip-id1165996006814">
-<m:math display="display">
+<m:math>
   <m:apply>
     <m:eq/>
     <m:apply>
@@ -651,7 +651,7 @@ The most significant bit is 1. This means it is negative.
 
 <item><label>Subtract the largest multiple of 2 less than or equal to the decimal number</label>
 <equation id="eip-id6556184">
-<m:math display="display">
+<m:math>
   <m:apply>
     <m:eq/>
     <m:apply>
@@ -676,7 +676,7 @@ The most significant bit is 1. This means it is negative.
 
 <item><label>Repeat this step until there is no remainder. Note down the powers of two</label>
 <equation id="eip-id1169694430121">
-<m:math display="display">
+<m:math>
   <m:apply>
     <m:eq/>
     <m:apply>
@@ -698,7 +698,7 @@ The most significant bit is 1. This means it is negative.
 </m:math>
 </equation>
 <equation id="eip-id1169699716920">
-<m:math display="display">
+<m:math>
   <m:apply>
     <m:eq/>
     <m:apply>
